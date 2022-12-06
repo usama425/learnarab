@@ -1,0 +1,39 @@
+.matchingletter {
+  .bar-royal {
+    position: relative;
+  }
+  .row {
+    padding-top: 3vw;
+  }
+  .bar .title {
+    font-size: 1.8em;
+    overflow: visible;
+  }
+  .default-text {
+    padding: 2vw;
+    font-size: 5vw;
+    color: #8dc63f;
+  }
+  //plaatje dat bij woord hoort
+  .orderimage {
+    width: 80vw;
+    height: 80vw;
+    display: block;
+    overflow: hidden;
+    border-style: double;
+    border-width: 2.5vw;
+    border-color: #f2e2ee;
+  }
+  .arabic-text {
+    text-align: center;
+    font-size: 9vw;
+    color: black;
+  }
+  //row waar de arabische letters in staan
+  .letters {
+    padding-top: 1vw;
+  }
+  .split-chars > span {
+    margin: 0 5px;
+  }
+}

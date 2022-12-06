@@ -1,0 +1,9 @@
+<ion-header>
+  <pages-header [gameInfoActive]="gameInfoActive" [currentScore]="currentScore" [routeData]="routeData" (toggleInfo)="toggleInfo($event)"
+    (onScrollTop)="scrollTop($event)">
+  </pages-header>
+</ion-header>
+<ion-content #layoutContent>
+  <game-info [gameInfoActive]="gameInfoActive" [pageSlug]="pageSlug" (toggleInfo)="toggleInfo($event)"></game-info>
+  <ion-router-outlet #router="outlet"></ion-router-outlet>
+</ion-content>

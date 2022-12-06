@@ -1,0 +1,39 @@
+.levels {
+    ion-col {
+        display: flex;
+        align-items: center;
+    }
+    .lampjes{
+    }
+
+    .lampje_aan{
+        width: 100%;
+        height: 100%;
+        &.uit {
+            -webkit-filter: grayscale(1); /* Webkit */
+            filter: grayscale(1); /* W3C */
+            opacity: 0.2;
+            -webkit-transition: 0s ease-in-out;
+            -moz-transition: 0s ease-in-out;
+            -o-transition: 0s ease-in-out;
+        }
+        &.aan {
+            -webkit-transition: 2s ease-in-out;
+            -moz-transition: 2s ease-in-out;
+            -o-transition: 2s ease-in-out;
+            -webkit-filter: grayscale(0); /* Webkit */
+            filter: grayscale(0); /* W3C */
+        }
+
+    }
+
+
+    .info-image{
+        float: right;
+    }
+
+    .test-image{
+        width: 100%;
+        height: 100%;
+    }
+}

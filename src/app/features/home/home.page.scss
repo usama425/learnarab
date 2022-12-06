@@ -1,0 +1,73 @@
+
+.home{
+  //kop Modern Standard Arabic
+  .header-text{
+      color:black;
+      font-family: "Podkova";
+      text-align: center;
+      font-size: 10vw;
+      z-index: 2;
+      position: relative;
+      padding-top: 10%;
+      padding-left: 7%;
+      text-transform:none;
+      line-height: 9vw;
+  }
+  //witte wolk achter kop
+  .level-image{
+      background-image: url("../../../assets/images/wolk_diap.png");
+      background-size: 96%;
+      width: 100vw;
+      height: calc(100vh - 12px);
+      position: absolute;
+      top: 12px;
+      background-repeat: no-repeat;
+      background-position: top;
+  }
+  //naam van Nayla
+  .lead{
+      text-align: center;
+      z-index: 2;
+      font-weight:200;
+      font-size: 7vw;
+      position: relative;
+  }
+  .keuze{
+      top:-30%;
+  }
+  .lamp{
+      width: 35%;
+      position: relative;
+      left:60%;
+      margin-top: -3px;
+  }
+  
+  .item{
+      background-color: #CCCC99;
+      border-color: transparent;
+      margin-bottom: 10px;
+
+  }
+}
+.loading {
+  .spinner {
+      position:fixed;
+      top:75vh;
+      left:50vw;
+  }
+  .loadingtext {
+      font-family: "Podkova";
+      font-size: 7vw;
+      color: white;
+      text-align: center;
+      width: 100vw;
+      position:fixed;
+      top:80vh;
+
+  }
+  background-image: url("../../../assets/images/splash.png");
+  background-position: center center;
+  background-size: cover;
+  width: 100vw;
+  height:100vh;
+}

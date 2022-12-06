@@ -1,0 +1,39 @@
+<ion-content class="page background-diap-alt">
+    <div class="rightsentence ipadscaled">
+        <ion-row class="sentenceToTranslate" [ngClass]="sentenceAnimationState">
+            <ion-col size="10">
+                <div class="default-text sentence">"{{english}}"</div>
+            </ion-col>
+            <ion-col size="2">
+                <ion-icon name="volume-medium" class="newaudiobutton roze" [attr.sound-path]="audio" (click)="playAudio($event)">
+                    <!-- <audio [src]="audio | safeUrl"></audio> -->
+                </ion-icon>
+            </ion-col>
+        </ion-row>
+        <ion-row class="wordList" [ngClass]="wordsAnimationState">
+            <ion-col>
+                <div class="sortable-container" dragula="words-list" [dragulaModel]="words"  (dragulaModelChange)="listSorted($event)">
+                    <div *ngFor="let item of words; let i = index;">
+                        <div class="item sortable-list-item arabic-text scheherazade as-sortable-item-handle" [ngClass]="handleClass(i)">{{item}}</div>
+                    </div>
+                </div>
+
+
+                <!-- <ngx-sortable [items]="words" (listSorted)="listSorted($event)">
+                    <ng-template let-item>
+                        <div class="item sortable-list-item arabic-text scheherazade as-sortable-item-handle"
+                            [ngClass]="(originalWords[words.indexOf(item)]===words[words.indexOf(item)]) ? 'goed' : 'fout'">
+                            {{item}}
+                        </div>
+                    </ng-template>
+                </ngx-sortable> -->
+                <!-- <ol data-as-sortable="dragControlListener" data-ng-model="words">
+                  <li data-ng-repeat="word in words" data-as-sortable-item class="as-sortable-item">
+                      <div data-as-sortable-item-handle class="item arabic-text scheherazade as-sortable-item-handle"
+                           >{{word}}</div>
+                  </li>
+              </ol> -->
+            </ion-col>
+        </ion-row>
+    </div>
+</ion-content>

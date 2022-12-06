@@ -1,0 +1,90 @@
+.missingword {
+    //kleine grijze geluid buttons
+    .newaudiobutton {
+        display: flex;
+        position:absolute;
+        top:5vw;
+        left:7vw;
+    }
+    .myaudiobutton:active {
+        color: #000000 !important;
+        background: #ccc;
+        background: linear-gradient(to top,  #B7C4C9,  #E7E9EE);
+    }
+    .arabic-text{
+        text-align: right;
+        padding-right: 6vw;
+        padding-left: 6vw;
+        font-size: 9vw;
+        line-height: 12vw;
+    }
+    .arabic-text.line{
+        text-align: right;
+        padding-right: 7vw;
+        padding-left: 14vw;
+        padding-top: 10vw;
+        font-size: 7vw;
+        line-height: 12vw;
+        
+    }
+
+    //roze wolk achter kop
+    .level-image{
+        background-image: url("../../../../assets/images/wolk_roze.png");
+        background-size: 96vw 50vw;
+        height: 50vw;
+        background-repeat:no-repeat;
+        background-position: top;
+        //        z-index:-1;
+    }
+    .button {
+        color:black;
+    }
+    .goed {
+        border-color: #8DC63F !important;
+        background: -webkit-linear-gradient(top, #8DC63F, #8DC63F)!important;
+        -webkit-transition:background-color 0.4s; /* Safari */
+        -moz-transition:background-color 0.4s; /* Firefox 4 */
+        -o-transition:background-color 0.4s; /* Opera */
+        transition: background-color 0.4s;
+    }
+    .fout {
+        border-color: #EF4136 !important;
+        background: -webkit-linear-gradient(top, #EF4136, #EF4136)!important;
+        -webkit-transition:background-color 0.4s; /* Safari */
+        -moz-transition:background-color 0.4s; /* Firefox 4 */
+        -o-transition:background-color 0.4s; /* Opera */
+        transition: background-color 0.4s;
+    }
+    .row.row-center.keuze{
+        padding-top: 1vw;
+    }
+  .button.item-icon-left {
+    height:16vw;
+    line-height: 12vw;
+    margin-top: 4vw;
+  }
+}
+.missingword.moveLeft {
+    transition: margin-left 0.3s;
+    transition-timing-function: linear;
+    margin-left: -100%;
+    width: 100%
+}
+.missingword.prepare {
+    transition: margin-left 0s;
+    margin-left: 100%;
+    width: 100%
+}
+.missingword.slideIn {
+    transition: margin-left 0.3s;
+    transition-timing-function: linear;
+    margin-left: 0%;
+    width: 100%;
+}
+::ng-deep .color-white {
+    color:#ffffff;
+}
+::ng-deep .color-good {
+    color: #8dc63f;
+}

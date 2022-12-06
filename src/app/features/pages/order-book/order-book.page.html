@@ -1,0 +1,54 @@
+<ion-content class="background-diap-alt">
+  <ion-row>
+    <ion-col>
+      <img class="orderimage" [src]="data.orderimage" />
+    </ion-col>
+
+    <ion-col>
+      <div class="lead">{{data.orderlead}}</div>
+      <p></p>
+      <span (click)="openOrderBookUrl()">
+        <img class="orderbutton" [src]="data.orderbutton" />
+      </span>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col class="text-content default-text">
+      <p style="margin: 0;">Hard cover, 175 pages, fully coloured and illustrated, includes accompanying audio recordings, to be downloaded
+      from the website.</p>
+      <div class="column">
+        <p>For whom is this book by Master Arabic?</p>
+        <ul>
+          <li>Everyone looking for an effective method in learning reading and writing Arabic. The student is not
+            expected to have any previous knowledge of the Arabic alphabet.</li>
+          <li>The student who is familiar with the Arabic alphabet but would like to expand his/her knowledge and
+            become more fluent in reading and writing.</li>
+        </ul>
+
+        What to expect from this book? (including quotes from students)
+        <ol>
+          <li>Being able to read and write Arabic with self-confidence and a solid knowledge of the rules of
+            pronunciation and writing:“ ...a fine and efficient method, before you know it you can read the whole
+            alphabet!”<br /><br />
+
+            Hugo Konz, doctor<br /><br /></li>
+
+          <li>“...an accessible beginners course, whereby fast results are achieved.”<br /><br />
+
+            Hagar Boers, student Middle-Eastern studies<br /><br /></li>
+          <li>Being armed with a strong base making you ready for the next step: Learning the grammar of the Arabic
+            language: “A clear and simple method that allows you to make a good start with an extensive
+            vocabulary.”<br /><br />
+
+            Hans Lammen, environmental engineer/musician<br /><br /></li>
+
+          <li>“This book is so fine to work with, it is very clear and the audio recordings are extremely helpful for
+            the pronunciation.”<br /><br />
+            Charlotte de Kruijf, lawyer</li>
+        </ol>
+
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-content>

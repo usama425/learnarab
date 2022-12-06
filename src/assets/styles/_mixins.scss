@@ -1,0 +1,17 @@
+/**
+* Define mixins here
+*/
+
+@mixin sizedbutton($radius) {
+    width:$radius;
+    height:$radius;
+    font-size:$radius*0.7;
+    line-height:$radius;
+    text-align: center;
+    margin: auto;
+}
+@mixin sizedbuttonBefore($radius) {
+    line-height:$radius;
+    text-align: center;
+    margin: auto;
+}

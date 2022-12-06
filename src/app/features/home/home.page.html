@@ -1,0 +1,51 @@
+<ion-content [fullscreen]="true" class="home background-diap">
+  <div class="header">
+    <div class="level-image"></div>
+    <div class="header-text">
+      <p>Modern Standard</p>
+      <p>Arabic</p>
+    </div>
+    <div class="lead">by Nayla Chebli</div>
+  </div>
+
+  <img class="lamp" src="assets/images/lamp_groot.png" />
+
+  <ion-row>
+    <ion-col>
+      <a routerLink="/pages/introduction" class="main-btn"> Introduction </a>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <a routerLink="/pages/learnvowels" class="main-btn"> Learn the vowels </a>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <a routerLink="/pages/learnbylevels" class="main-btn"> Learn by Level </a>
+    </ion-col>
+  </ion-row>
+  <ion-row *ngIf="!debugMode && !settings.appPurchased">
+    <ion-col>
+      <a routerLink="/pages/buy" class="main-btn"> REMOVE ADS </a>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <a routerLink="/pages/order-book" class="main-btn"> Order book </a>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <a routerLink="/pages/about-us" class="main-btn"> About Us </a>
+    </ion-col>
+  </ion-row>
+
+  <!-- <ion-row>
+    <ion-col>
+      <a routerLink="/pages/ads-test" class="main-btn">
+        Ads Test
+      </a>
+    </ion-col>
+  </ion-row> -->
+</ion-content>

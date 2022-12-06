@@ -1,0 +1,48 @@
+<ion-content class="page background-diap-alt">
+    <div class="scroll">
+        <div class="wordpuzzle ipadscaled">
+            <div class="col-20 geluid">
+                <div class="newaudiobutton ion-android-volume-up roze">
+                    <ion-icon name="volume-medium" [attr.sound-path]="audio" (click)="playAudio($event)">
+                        <!-- <audio [src]="audio | safeUrl"></audio> -->
+                    </ion-icon>
+                </div>
+            </div>
+
+            <div class="backgroundimage"></div>
+            <div class="backgroundimage2"></div>
+
+            <ion-row class="arabisch">
+                <ion-col size="10" offset="1">
+                    <div class="arabic-text scheherazade" [ngClass]="wordStatus">{{createdWord}}</div>
+                </ion-col>
+            </ion-row>
+
+            <ion-row>
+                <ion-col size="10" offset="1">
+                    <div class="default-text">{{englishWord}}</div>
+                </ion-col>
+            </ion-row>
+            
+            <div class="letterrij" [ngClass]="moveableAnnimation">
+                <ion-row class="letters" >
+                    <ion-col class="center" *ngFor="let letter of letters[0]; let i = index;">
+                        <button class="button cirkel-letter" [ngClass]="letter.status"
+                            (click)="select(letter.character, i, 0);">
+                            <div class="letter">{{letter.character}}</div>
+                        </button>
+                    </ion-col>
+                </ion-row>
+
+                <ion-row class="letters">
+                    <ion-col class="center" *ngFor="let letter of letters[1]; let i = index;">
+                        <button class="button cirkel-letter" [ngClass]="letter.status"
+                            (click)="select(letter.character, i, 1);">
+                            <div class="letter">{{letter.character}}</div>
+                        </button>
+                    </ion-col>
+                </ion-row>
+            </div>
+        </div>
+    </div>
+</ion-content>

@@ -1,0 +1,891 @@
+[{
+  "meta":{
+    "arabic_letter":"\u0647",
+    "phonetic":"haa",
+    "long_vowel":[{
+      "arab_sign":"<p><span class=\"highlight\">&#xFEEB;<\/span>\u200d&#xFEF2;<\/p>\n",
+      "phonetic":"hee"},
+                  {
+                    "arab_sign":"<p><span class=\"highlight\">&#xFEEB;<\/span>&#xFEEE;<\/p>\n",
+                    "phonetic":"huu"},
+                  {
+                    "arab_sign":"<p><span class=\"highlight\">&#xFEEB;<\/span>\u200d&#xFE8E;<\/p>\n",
+                    "phonetic":"haa"}],
+    "short_vowels":[{
+      "arab_sign":"<p><span class=\"highlight\">\u0647\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u0647<\/span>\u0652<\/p>\n",
+      "phonetic":"h"},
+                    {
+                      "arab_sign":"<p><span class=\"highlight\">\u0647\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u0647<\/span>\u0650<\/p>\n",
+                      "phonetic":"he"},
+                    {
+                      "arab_sign":"<p><span class=\"highlight\">\u0647\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u0647<\/span>\u064f<\/p>\n",
+                      "phonetic":"hu"},
+                    {
+                      "arab_sign":"<p><span class=\"highlight\">\u0647\u0640<\/span>\u064e&#x200A;<span class=\"divider\">|</span>&#x200A;<span class=\"highlight\">\u0647<\/span>\u064e<\/p>\n",
+                      "phonetic":"ha"}],
+    "writing_reperate":"\u0647\u0640",
+    "writing_beginning":"\u0640\u0647\u0640",
+    "writing_inbetween":"\u0640\u0647",
+    "writing_end":"\u0647",
+    "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/Screenshot-2015-10-24-at-6.38.21-PM.png",
+    "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/The-haa-with-vowels.m4a"},
+  "author":[],
+  "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u0645",
+     "phonetic":"meem",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">&#xFEE3;<\/span>\u200d&#xFEF2;<\/p>\n",
+       "phonetic":"mee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEE3;<\/span>&#xFEEE;<\/p>\n",
+                     "phonetic":"muu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEE3;<\/span>\u200d&#xFE8E;<\/p>\n",
+                     "phonetic":"maa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0645\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u0645<\/span>\u0652<\/p>\n",
+       "phonetic":"m"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0645\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u0645<\/span>\u0650<\/p>\n",
+                       "phonetic":"me"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0645\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u0645<\/span>\u064f<\/p>\n",
+                       "phonetic":"mu"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0645\u0640<\/span>\u064e<span class=\"divider\">|</span><span class=\"highlight\">\u0645<\/span>\u064e<\/p>\n",
+                       "phonetic":"ma"}],
+     "writing_reperate":"\u0645\u0640",
+     "writing_beginning":"\u0640\u0645\u0640",
+     "writing_inbetween":"\u0640\u0645",
+     "writing_end":"\u0645",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/Screenshot-2015-10-24-at-6.38.06-PM.png",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/The-meem-with-the-vowels.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u0644",
+     "phonetic":"lam",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">\ufedf<\/span>\u200d\ufef2<\/p>\n",
+       "phonetic":"lee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">\ufedf<\/span>\ufeee<\/p>\n",
+                     "phonetic":"luu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">\ufefb<\/span><\/p>\n",
+                     "phonetic":"laa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0644\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u0644<\/span>\u0652<\/p>\n",
+       "phonetic":"l"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0644\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u0644<\/span>\u0650<\/p>\n",
+                       "phonetic":"le"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0644\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u0644<\/span>\u064f<\/p>\n",
+                       "phonetic":"lu"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0644\u0640<\/span>\u064e<span class=\"divider\">|</span><span class=\"highlight\">\u0644<\/span>\u064e<\/p>\n",
+                       "phonetic":"la"}],
+     "writing_reperate":"\u0644\u0640",
+     "writing_beginning":"\u0640\u0644\u0640",
+     "writing_inbetween":"\u0640\u0644",
+     "writing_end":"\u0644",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/Screenshot-2015-10-24-at-6.36.52-PM-e1445706818542.png",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/The-letter-lam.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u0643",
+     "phonetic":"kaf",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">&#xFEDB;<\/span>\u200d&#xFEF2;<\/p>\n",
+       "phonetic":"kee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEDB;<\/span>&#xFEEE;<\/p>\n",
+                     "phonetic":"kuu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEDB;<\/span>\u200d&#xFE8E;<\/p>\n",
+                     "phonetic":"kaa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0643\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u0643<\/span>\u0652<\/p>\n",
+       "phonetic":"k"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0643\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u0643<\/span>\u0650<\/p>\n",
+                       "phonetic":"ke"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0643\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u0643<\/span>\u064f<\/p>\n",
+                       "phonetic":"ku"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0643\u0640<\/span>\u064e<span class=\"divider\">|</span><span class=\"highlight\">\u0643<\/span>\u064e<\/p>\n",
+                       "phonetic":"ka"}],
+     "writing_reperate":"\u0643\u0640",
+     "writing_beginning":"\u0640\u0643\u0640",
+     "writing_inbetween":"\u0640\u0643",
+     "writing_end":"\u0643",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/Screenshot-2015-10-24-at-6.36.17-PM.png",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/kef-with-the-vowels.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u0642",
+     "phonetic":"qaaf",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">&#xFED7;<\/span>\u200d&#xFEF2;<\/p>\n",
+       "phonetic":"qee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFED7;<\/span>&#xFEEE;<\/p>\n",
+                     "phonetic":"quu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFED7;<\/span>\u200d&#xFE8E;<\/p>\n",
+                     "phonetic":"qaa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0642\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u0642<\/span>\u0652<\/p>\n",
+       "phonetic":"q"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0642\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u0642<\/span>\u0650<\/p>\n",
+                       "phonetic":"qe"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0642\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u0642<\/span>\u064f<\/p>\n",
+                       "phonetic":"qu"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0642\u0640<\/span>\u064e<span class=\"divider\">|</span><span class=\"highlight\">\u0642<\/span>\u064e<\/p>\n",
+                       "phonetic":"qa"}],
+     "writing_reperate":"\u0642\u0640",
+     "writing_beginning":"\u0640\u0642\u0640",
+     "writing_inbetween":"\u0640\u0642",
+     "writing_end":"\u0642",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/Screenshot-2015-10-24-at-6.35.08-PM.png",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/App-The-letter-Qaaf.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u0638",
+     "phonetic":"Zhaa",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">&#xFEC7;<\/span>\u200d&#xFEF2;<\/p>\n",
+       "phonetic":"Zhee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEC7;<\/span>&#xFEEE;<\/p>\n",
+                     "phonetic":"Zhuu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEC7;<\/span>\u200d&#xFE8E;<\/p>\n",
+                     "phonetic":"Zhaa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0638<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u0638<\/span>\u0652<\/p>\n",
+       "phonetic":"Zh"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0638<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u0638<\/span>\u0650<\/p>\n",
+                       "phonetic":"Zhe"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0638<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u0638<\/span>\u064f<\/p>\n",
+                       "phonetic":"Zhu"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0638<\/span>\u064e<span class=\"divider\">|</span><span class=\"highlight\">\u0638<\/span>\u064e<\/p>\n",
+                       "phonetic":"Zha"}],
+     "writing_reperate":"\u0638\u0640",
+     "writing_beginning":"\u0640\u0638\u0640",
+     "writing_inbetween":"\u0640\u0638",
+     "writing_end":"\u0638",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/Screenshot-2015-10-24-at-6.34.09-PM.png",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/App-The-letter-Zaa.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u0637",
+     "phonetic":"Taa",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">&#xFEC3;<\/span>\u200d&#xFEF2;<\/p>\n",
+       "phonetic":"Tee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEC3;<\/span>&#xFEEE;<\/p>\n",
+                     "phonetic":"Tuu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEC3;<\/span>\u200d&#xFE8E;<\/p>\n",
+                     "phonetic":"Taa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0637<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u0637<\/span>\u0652<\/p>\n",
+       "phonetic":"T"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0637<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u0637<\/span>\u0650<\/p>\n",
+                       "phonetic":"Te"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0637<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u0637<\/span>\u064f<\/p>\n",
+                       "phonetic":"Tu"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0637<\/span>\u064e<span class=\"divider\">|</span><span class=\"highlight\">\u0637<\/span>\u064e<\/p>\n",
+                       "phonetic":"Ta"}],
+     "writing_reperate":"\u0637\u0640",
+     "writing_beginning":"\u0640\u0637\u0640",
+     "writing_inbetween":"\u0640\u0637",
+     "writing_end":"\u0637",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/Screenshot-2015-10-24-at-6.34.09-PM.png",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/app-the-letter-capitaltaa.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u0641",
+     "phonetic":"faa",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">&#xFED3;<\/span>\u200d&#xFEF2;<\/p>\n",
+       "phonetic":"fee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFED3;<\/span>&#xFEEE;<\/p>\n",
+                     "phonetic":"fuu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFED3;<\/span>\u200d&#xFE8E;<\/p>\n",
+                     "phonetic":"faa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0641\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u0641<\/span>\u0652<\/p>\n",
+       "phonetic":"f"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0641\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u0641<\/span>\u0650<\/p>\n",
+                       "phonetic":"fe"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0641\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u0641<\/span>\u064f<\/p>\n",
+                       "phonetic":"fu"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0641\u0640<\/span>\u064e<span class=\"divider\">|</span><span class=\"highlight\">\u0641<\/span>\u064e<\/p>\n",
+                       "phonetic":"fa"}],
+     "writing_reperate":"\u0641\u0640",
+     "writing_beginning":"\u0640\u0641\u0640",
+     "writing_inbetween":"\u0640\u0641",
+     "writing_end":"\u0641",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/Screenshot-2015-10-24-at-6.33.02-PM.png",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/App-The-letter-fa.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u0636",
+     "phonetic":"Daad",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">&#xFEBF;<\/span>\u200d&#xFEF2;<\/p>\n",
+       "phonetic":"Dee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEBF;<\/span>&#xFEEE;<\/p>\n",
+                     "phonetic":"Duu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEBF;<\/span>\u200d&#xFE8E;<\/p>\n",
+                     "phonetic":"Daa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0636\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u0636<\/span>\u0652<\/p>\n",
+       "phonetic":"D"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0636\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u0636<\/span>\u0650<\/p>\n",
+                       "phonetic":"De"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0636\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u0636<\/span>\u064f<\/p>\n",
+                       "phonetic":"Du"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0636\u0640<\/span>\u064e<span class=\"divider\">|</span><span class=\"highlight\">\u0636<\/span>\u064e<\/p>\n",
+                       "phonetic":"Da"}],
+     "writing_reperate":"\u0636\u0640",
+     "writing_beginning":"\u0640\u0636\u0640",
+     "writing_inbetween":"\u0640\u0636",
+     "writing_end":"\u0636",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/SCN_0016.jpg",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/App-The-letter-Daad.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u0635",
+     "phonetic":"Saad",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">&#xFEBB;<\/span>\u200d&#xFEF2;<\/p>\n",
+       "phonetic":"See"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEBB;<\/span>&#xFEEE;<\/p>\n",
+                     "phonetic":"Suu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEBB;<\/span>\u200d&#xFE8E;<\/p>\n",
+                     "phonetic":"Saa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0635\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u0635<\/span>\u0652<\/p>\n",
+       "phonetic":"S"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0635\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u0635<\/span>\u0650<\/p>\n",
+                       "phonetic":"Se"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0635\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u0635<\/span>\u064f<\/p>\n",
+                       "phonetic":"Su"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0635\u0640<\/span>\u064e<span class=\"divider\">|</span><span class=\"highlight\">\u0635<\/span>\u064e<\/p>\n",
+                       "phonetic":"Sa"}],
+     "writing_reperate":"\u0635\u0640",
+     "writing_beginning":"\u0640\u0635\u0640",
+     "writing_inbetween":"\u0640\u0635",
+     "writing_end":"\u0635",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/The-letter-Saad.jpg",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/App-The-letter-Saad.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u0634",
+     "phonetic":"sheen",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">&#xFEB7;<\/span>\u200d&#xFEF2;<\/p>\n",
+       "phonetic":"shee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEB7;<\/span>&#xFEEE;<\/p>\n",
+                     "phonetic":"shuu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEB7;<\/span>\u200d&#xFE8E;<\/p>\n",
+                     "phonetic":"shaa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0634\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u0634<\/span>\u0652<\/p>\n",
+       "phonetic":"sh"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0634\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u0634<\/span>\u0650<\/p>\n",
+                       "phonetic":"she"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0634\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u0634<\/span>\u064f<\/p>\n",
+                       "phonetic":"shu"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0634\u0640<\/span>\u064e<span class=\"divider\">|</span><span class=\"highlight\">\u0634<\/span>\u064e<\/p>\n",
+                       "phonetic":"sha"}],
+     "writing_reperate":"\u0634\u0640",
+     "writing_beginning":"\u0640\u0634\u0640",
+     "writing_inbetween":"\u0640\u0634",
+     "writing_end":"\u0634",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/The-letter-sheen.jpg",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/App-The-letter-sheen.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u0633",
+     "phonetic":"seen",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">&#xFEB3;<\/span>\u200d&#xFEF2;<\/p>\n",
+       "phonetic":"see"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEB3;<\/span>&#xFEEE;<\/p>\n",
+                     "phonetic":"suu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEB3;<\/span>\u200d&#xFE8E;<\/p>\n",
+                     "phonetic":"saa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0633\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u0633<\/span>\u0652<\/p>\n",
+       "phonetic":"s"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0633\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u0633<\/span>\u0650<\/p>\n",
+                       "phonetic":"se"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0633\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u0633<\/span>\u064f<\/p>\n",
+                       "phonetic":"su"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0633\u0640<\/span>\u064e<span class=\"divider\">|</span><span class=\"highlight\">\u0633<\/span>\u064e<\/p>\n",
+                       "phonetic":"sa"}],
+     "writing_reperate":"\u0633\u0640",
+     "writing_beginning":"\u0640\u0633\u0640",
+     "writing_inbetween":"\u0640\u0633",
+     "writing_end":"\u0633",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/SCN_0012.jpg",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/App-The-letter-seen.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u063a",
+     "phonetic":"ghayn",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">&#xFECF;<\/span>\u200d&#xFEF2;<\/p>\n",
+       "phonetic":"ghee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFECF;<\/span>&#xFEEE;<\/p>\n",
+                     "phonetic":"ghuu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFECF;<\/span>\u200d&#xFE8E;<\/p>\n",
+                     "phonetic":"ghaa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u063a\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u063a<\/span>\u0652<\/p>\n",
+       "phonetic":"gh"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u063a\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u063a<\/span>\u0650<\/p>\n",
+                       "phonetic":"ghe"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u063a\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u063a<\/span>\u064f<\/p>\n",
+                       "phonetic":"ghu"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u063a\u0640<\/span>\u064e<span class=\"divider\">|</span>&#x200A;<span class=\"highlight\">\u063a<\/span>\u064e<\/p>\n",
+                       "phonetic":"gha"}],
+     "writing_reperate":"\u063a\u0640",
+     "writing_beginning":"\u0640\u063a\u0640",
+     "writing_inbetween":"\u0640\u063a",
+     "writing_end":"\u063a",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/Screenshot-2015-10-24-at-6.29.26-PM.png",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/ghayn-with-vowels.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u0639",
+     "phonetic":"3ayn",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">&#xFECB;<\/span>\u200d&#xFEF2;<\/p>\n",
+       "phonetic":"3ee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFECB;<\/span>&#xFEEE;<\/p>\n",
+                     "phonetic":"3uu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFECB;<\/span>\u200d&#xFE8E;<\/p>\n",
+                     "phonetic":"3aa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0639\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u0639<\/span>\u0652<\/p>\n",
+       "phonetic":"3"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0639\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u0639<\/span>\u0650<\/p>\n",
+                       "phonetic":"3e"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0639\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u0639<\/span>\u064f<\/p>\n",
+                       "phonetic":"3u"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0639\u0640<\/span>\u064e<span class=\"divider\">|</span>&#x200A;<span class=\"highlight\">\u0639<\/span>\u064e<\/p>\n",
+                       "phonetic":"3a"}],
+     "writing_reperate":"\u0639\u0640",
+     "writing_beginning":"\u0640\u0639\u0640",
+     "writing_inbetween":"\u0640\u0639",
+     "writing_end":"\u0639",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/Screenshot-2015-10-24-at-6.29.26-PM.png",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/3ayn-with-vowels.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u062e",
+     "phonetic":"khaa",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">&#xFEA7;<\/span>\u200d&#xFEF2;<\/p>\n",
+       "phonetic":"khee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEA7;<\/span>&#xFEEE;<\/p>\n",
+                     "phonetic":"khuu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEA7;<\/span>\u200d&#xFE8E;<\/p>\n",
+                     "phonetic":"khaa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u062e\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u062e<\/span>\u0652<\/p>\n",
+       "phonetic":"kh"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u062e\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u062e<\/span>\u0650<\/p>\n",
+                       "phonetic":"khe"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u062e\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u062e<\/span>\u064f<\/p>\n",
+                       "phonetic":"khu"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u062e\u0640<\/span>\u064e<span class=\"divider\">|</span>&#x200A;<span class=\"highlight\">\u062e<\/span>\u064e<\/p>\n",
+                       "phonetic":"kha"}],
+     "writing_reperate":"\u062e\u0640",
+     "writing_beginning":"\u0640\u062e\u0640",
+     "writing_inbetween":"\u0640\u062e",
+     "writing_end":"\u062e",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/SCN_0010.jpg",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/App-The-letter-khaa.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u062d",
+     "phonetic":"7aa",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">&#xFEA3;<\/span>\u200d&#xFEF2;<\/p>\n",
+       "phonetic":"7ee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEA3;<\/span>&#xFEEE;<\/p>\n",
+                     "phonetic":"7uu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEA3;<\/span>\u200d&#xFE8E;<\/p>\n",
+                     "phonetic":"7aa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u062d\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u062d<\/span>\u0652<\/p>\n",
+       "phonetic":"7"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u062d\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u062d<\/span>\u0650<\/p>\n",
+                       "phonetic":"7i"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u062d\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u062d<\/span>\u064f<\/p>\n",
+                       "phonetic":"7u"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u062d\u0640<\/span>\u064e<span class=\"divider\">|</span>&#x200A;<span class=\"highlight\">\u062d<\/span>\u064e<\/p>\n",
+                       "phonetic":"7a"}],
+     "writing_reperate":"\u062d\u0640",
+     "writing_beginning":"\u0640\u062d\u0640",
+     "writing_inbetween":"\u0640\u062d",
+     "writing_end":"\u062d",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/SCN_0009.jpg",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/App-The-letter-7aa.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u062c",
+     "phonetic":"jeem",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">&#xFE9F;<\/span>\u200d&#xFEF2;<\/p>\n",
+       "phonetic":"jee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFE9F;<\/span>&#xFEEE;<\/p>\n",
+                     "phonetic":"juu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFE9F;<\/span>\u200d&#xFE8E;<\/p>\n",
+                     "phonetic":"jaa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u062c\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u062c<\/span>\u0652<\/p>\n",
+       "phonetic":"j"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u062c\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u062c<\/span>\u0650<\/p>\n",
+                       "phonetic":"je"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u062c\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u062c<\/span>\u064f<\/p>\n",
+                       "phonetic":"ju"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u062c\u0640<\/span>\u064e<span class=\"divider\">|</span>&#x200A;<span class=\"highlight\">\u062c<\/span>\u064e<\/p>\n",
+                       "phonetic":"ja"}],
+     "writing_reperate":"\u062c\u0640",
+     "writing_beginning":"\u0640\u062c\u0640",
+     "writing_inbetween":"\u0640\u062c",
+     "writing_end":"\u062c",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/de-letter-jeem-e1449755635922.jpg",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/App-The-letter-jeem.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u064a",
+     "phonetic":"yaa",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">&#xFEF3;<\/span>\u200d&#xFEF2;<\/p>\n",
+       "phonetic":"yee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEF3;<\/span>&#xFEEE;<\/p>\n",
+                     "phonetic":"yuu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEF3;<\/span>\u200d&#xFE8E;<\/p>\n",
+                     "phonetic":"yaa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u064a\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u064a<\/span>\u0652<\/p>\n",
+       "phonetic":"y"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u064a\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u064a<\/span>\u0650<\/p>\n",
+                       "phonetic":"ye"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u064a\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u064a<\/span>\u064f<\/p>\n",
+                       "phonetic":"yu"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u064a\u0640<\/span>\u064e<span class=\"divider\">|</span><span class=\"highlight\">\u064a<\/span>\u064e<\/p>\n",
+                       "phonetic":"ya"}],
+     "writing_reperate":"\u064a\u0640",
+     "writing_beginning":"\u0640\u064a\u0640",
+     "writing_inbetween":"\u0640\u064a",
+     "writing_end":"\u064a",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/de-yaa.jpg",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/App-The-letter-ya.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u062b",
+     "phonetic":"thaa",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">\ufe9b<\/span>\u200d\ufef2<\/p>\n",
+       "phonetic":"thee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">\ufe9b<\/span>\u200d\ufeee<\/p>\n",
+                     "phonetic":"thuu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">\ufe9b<\/span>\u200d\ufe8e<\/p>\n",
+                     "phonetic":"thaa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u062b\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u062b<\/span>\u0652<\/p>\n",
+       "phonetic":"th"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u062b\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u062b<\/span>\u0650<\/p>\n",
+                       "phonetic":"thi"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u062b\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u062b<\/span>\u064f<\/p>\n",
+                       "phonetic":"thu"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u062b\u0640<\/span>\u064e<span class=\"divider\">|</span><span class=\"highlight\">\u062b<\/span>\u064e<\/p>\n",
+                       "phonetic":"tha"}],
+     "writing_reperate":"\u062b\u0640",
+     "writing_beginning":"\u0640\u062b\u0640",
+     "writing_inbetween":"\u0640\u062b",
+     "writing_end":"\u062b",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/the-tha.jpg",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/App-The-letter-thaa.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u0628",
+     "phonetic":"baa",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">\ufe91<\/span>\u200d\ufef2<\/p>\n",
+       "phonetic":"bee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">\ufe91<\/span>\ufeee<\/p>\n",
+                     "phonetic":"buu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">\ufe91<\/span>\u200d\ufe8e<\/p>\n",
+                     "phonetic":"baa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0628\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u0628<\/span>\u0652<\/p>\n",
+       "phonetic":"b"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0628\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u0628<\/span>\u0650<\/p>\n",
+                       "phonetic":"be"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0628\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u0628<\/span>\u064f<\/p>\n",
+                       "phonetic":"bu"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0628\u0640<\/span>\u064e<span class=\"divider\">|</span><span class=\"highlight\">\u0628<\/span>\u064e<\/p>\n",
+                       "phonetic":"ba"}],
+     "writing_reperate":"\u0628\u0640",
+     "writing_beginning":"\u0640\u0628\u0640",
+     "writing_inbetween":"\u0640\u0628",
+     "writing_end":"\u0628",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/the-baa.jpg",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/App-The-letter-baa.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u0648",
+     "phonetic":"wow",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0648<\/span>\u064a<\/p>\n",
+       "phonetic":"wee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">\u0648<\/span>\u0648<\/p>\n",
+                     "phonetic":"wuu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">\u0648<\/span>\u0627<\/p>\n",
+                     "phonetic":"waa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0648<\/span>\u0652<\/p>\n",
+       "phonetic":"w"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0648<\/span>\u0650<\/p>\n",
+                       "phonetic":"we"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0648<\/span>\u064f<\/p>\n",
+                       "phonetic":"wu"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0648<\/span>\u064e<\/p>\n",
+                       "phonetic":"wa"}],
+     "writing_reperate":"\u0648",
+     "writing_beginning":"\u0640\u0648",
+     "writing_inbetween":"\u0640\u0648",
+     "writing_end":"\u0648",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/de-wow.jpg",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/App-The-letter-wow.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u0632",
+     "phonetic":"zay",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">\ufeaf<\/span>\u064a<\/p>\n",
+       "phonetic":"zee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">\ufeaf<\/span>\u0648<\/p>\n",
+                     "phonetic":"zuu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">\ufeaf<\/span>\u0627<\/p>\n",
+                     "phonetic":"zaa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0632<\/span>\u0652<\/p>\n",
+       "phonetic":"z"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0632<\/span>\u0650<\/p>\n",
+                       "phonetic":"ze"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0632<\/span>\u064f<\/p>\n",
+                       "phonetic":"zu"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0632<\/span>\u064e<\/p>\n",
+                       "phonetic":"za"}],
+     "writing_reperate":"\u0632",
+     "writing_beginning":"\u0640\u0632",
+     "writing_inbetween":"\u0640\u0632",
+     "writing_end":"\u0632",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/de-zay.jpg",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/App-The-letter-zay.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u0631",
+     "phonetic":"raa",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">\ufead<\/span>\u064a<\/p>\n",
+       "phonetic":"ree"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">\ufead<\/span>\u0648<\/p>\n",
+                     "phonetic":"ruu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">\ufead<\/span>\u0627<\/p>\n",
+                     "phonetic":"raa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0631<\/span>\u0652<\/p>\n",
+       "phonetic":"r"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0631<\/span>\u0650<\/p>\n",
+                       "phonetic":"re"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0631<\/span>\u064f<\/p>\n",
+                       "phonetic":"ru"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0631<\/span>\u064e<\/p>\n",
+                       "phonetic":"ra"}],
+     "writing_reperate":"\u0631",
+     "writing_beginning":"\u0640\u0631",
+     "writing_inbetween":"\u0640\u0631",
+     "writing_end":"\u0631",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/SCN_0004.jpg",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/App-The-letter-raa.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u062a",
+     "phonetic":"taa",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">\ufe97<\/span>\u200d\ufef2<\/p>\n",
+       "phonetic":"tee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">\ufe97<\/span>\ufeee<\/p>\n",
+                     "phonetic":"tuu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">\ufe97<\/span>\u200d\ufe8e<\/p>\n",
+                     "phonetic":"taa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u062a\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u062a<\/span>\u0652<\/p>\n",
+       "phonetic":"t"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u062a\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u062a<\/span>\u0650<\/p>\n",
+                       "phonetic":"te"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u062a\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u062a<\/span>\u064f<\/p>\n",
+                       "phonetic":"tu"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u062a\u0640<\/span>\u064e<span class=\"divider\">|</span><span class=\"highlight\">\u062a<\/span>\u064e<\/p>\n",
+                       "phonetic":"ta"}],
+     "writing_reperate":"\u062a\u0640",
+     "writing_beginning":"\u0640\u062a\u0640",
+     "writing_inbetween":"\u0640\u062a",
+     "writing_end":"\u062a",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/the-taa.jpg",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/app-the-letter-taa.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u0630",
+     "phonetic":"dh",       
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0630<\/span>\u064a<\/p>\n",
+       "phonetic":"dhee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">\u0630<\/span>\u0648<\/p>\n",
+                     "phonetic":"dhuu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">\u0630<\/span>\u0627<\/p>\n",
+                     "phonetic":"dhaa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0630<\/span>\u0652<\/p>\n",
+       "phonetic":"dh"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0630<\/span>\u0650<\/p>\n",
+                       "phonetic":"dhe"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0630<\/span>\u064f<\/p>\n",
+                       "phonetic":"dhu"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0630<\/span>\u064e<\/p>\n",
+                       "phonetic":"dha"}],
+     "writing_reperate":"\u0630",
+     "writing_beginning":"\u0640\u0630",
+     "writing_inbetween":"\u0640\u0630",
+     "writing_end":"\u0630",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/SCN_0002.jpg",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/09\/App-The-letter-dhaal.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u062f",
+     "phonetic":"d",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight scheherazade\">\u062f<\/span>\u064a<\/p>\n",
+       "phonetic":"dee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">\u062f<\/span>\u0648<\/p>\n",
+                     "phonetic":"duu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">\u062f<\/span>\u0627<\/p>\n",
+                     "phonetic":"daa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u062f<\/span>\u0652<\/p>\n",
+       "phonetic":"d"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u062f<\/span>\u0650<\/p>\n",
+                       "phonetic":"de"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u062f<\/span>\u064f<\/p>\n",
+                       "phonetic":"du"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u062f<\/span>\u064e<\/p>\n",
+                       "phonetic":"da"}],
+     "writing_reperate":"\u062f",
+     "writing_beginning":"\u0640\u062f",
+     "writing_inbetween":"\u0640\u062f",
+     "writing_end":"\u062f",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/08\/Daal-writing-instructions.jpg",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/08\/App-The-letter-daal.m4a"},
+   "author":[],
+   "terms":[]},
+ {
+   "meta":{
+     "arabic_letter":"\u0646",
+     "phonetic":"noon",
+     "long_vowel":[{
+       "arab_sign":"<p><span class=\"highlight\">&#xFEE7;<\/span>\u200d&#xFEF2;<\/p>\n",
+       "phonetic":"nee"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEE7;<\/span>&#xFEEE;<\/p>\n",
+                     "phonetic":"nuu"},
+                   {
+                     "arab_sign":"<p><span class=\"highlight\">&#xFEE7;<\/span>\u200d&#xFE8E;<\/p>\n",
+                     "phonetic":"naa"}],
+     "short_vowels":[{
+       "arab_sign":"<p><span class=\"highlight\">\u0646\u0640<\/span>\u0652<span class=\"divider\">|</span><span class=\"highlight\">\u0646<\/span>\u0652<\/p>\n",
+       "phonetic":"n"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0646\u0640<\/span>\u0650<span class=\"divider\">|</span><span class=\"highlight\">\u0646<\/span>\u0650<\/p>\n",
+                       "phonetic":"ne"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0646\u0640<\/span>\u064f<span class=\"divider\">|</span><span class=\"highlight\">\u0646<\/span>\u064f<\/p>\n",
+                       "phonetic":"nu"},
+                     {
+                       "arab_sign":"<p><span class=\"highlight\">\u0646\u0640<\/span>\u064e<span class=\"divider\">|</span><span class=\"highlight\">\u0646<\/span>\u064e<\/p>\n",
+                       "phonetic":"na"}],
+     "writing_reperate":"\u0646\u0640",
+     "writing_beginning":"\u0640\u0646\u0640",
+     "writing_inbetween":"\u0640\u0646",
+     "writing_end":"\u0646",
+     "image":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/06\/de-noun.jpg",
+     "sound":"http:\/\/La.pixelpixies.nl\/wp-content\/uploads\/2015\/06\/App-The-letter-noon.m4a"},
+   "author":[],
+   "terms":[]}]

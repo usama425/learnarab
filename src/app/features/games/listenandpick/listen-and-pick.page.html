@@ -1,0 +1,21 @@
+<ion-content class="page background-diap-alt">
+  <div class="listenandpick ipadscaled">
+      <ion-row>
+          <div class="kameelimage"></div>
+          <ion-col class="col-center geluid" [ngClass]="soundStatus">
+              <div class="newaudiobutton ion-android-volume-up roze">
+                <ion-icon name="volume-medium" [attr.sound-path]="sound" (click)="playAudio($event)">
+                    <!-- <audio [src]="sound | safeUrl"></audio> -->
+                </ion-icon>
+            </div>
+          </ion-col>
+      </ion-row>
+      <ion-row *ngFor="let word of words" class="row-center keuze">
+          <ion-col class="col-center">
+              <button class="mybutton wolk" [ngClass]="word.wordStatus" (click)="select(word)">
+                  <div class="arabic-text scheherazade">{{word.words}}</div>
+              </button>
+          </ion-col>
+        </ion-row>
+  </div>
+</ion-content>

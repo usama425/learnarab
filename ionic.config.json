@@ -1,0 +1,8 @@
+{
+  "name": "LearnArab",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

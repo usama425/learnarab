@@ -1,0 +1,36 @@
+<ion-content class="background-diap-dark">
+  <div class="score" *ngIf="dataLoaded">
+    <ion-row class="notification">
+      <ion-col class="col-center" *ngIf="gameScore==0">
+        "Keep trying! You got {{gameScore}} right out of {{maxScore}}!"
+      </ion-col>
+      <ion-col class="col-center" *ngIf="gameScore==1">
+        "Not bad! You got {{gameScore}} right out of {{maxScore}}!"
+      </ion-col>
+      <ion-col class="col-center" *ngIf="gameScore>1 && gameScore!=maxScore">
+        "Good job! You got {{gameScore}} right out of {{maxScore}}!"
+      </ion-col>
+      <ion-col class="col-center" *ngIf="gameScore==maxScore">
+        "Perfect! You mastered all {{maxScore}}!"
+      </ion-col>
+    </ion-row>
+    <ion-row class="progressie">
+      <ion-col size="6" offset="3">
+        <div class="lead">Overall Progress</div>
+
+        <progress-bar class="scoreScreenProgress" [barValue]="progressValue" [frontBarClasses]="[0,25,75,100]"
+          [backBarClasses]="[100]">
+        </progress-bar>
+
+      </ion-col>
+    </ion-row>
+    <ion-row class="">
+      <ion-col class="col-10"></ion-col>
+      <ion-col class="col-center">
+        <div class="index-name button item-icon-left" (click)="replayGame()">Play again</div>
+        <div class="index-name button item-icon-left" (click)="back()">Back</div>
+      </ion-col>
+      <ion-col class="col-10"></ion-col>
+    </ion-row>
+  </div>
+</ion-content>

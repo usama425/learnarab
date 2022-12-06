@@ -1,0 +1,178 @@
+<ion-content class="page background-diap-alt">
+   <div class="scroll">
+      <div class="learnvowels hamza">
+         <ion-row class="row-center">
+            <ion-col class="center">
+               <div class="name klank">hamza :
+               </div>
+
+               <div class="arabic-text scheherazade sign">
+                  ء
+               </div>
+            </ion-col>
+         </ion-row>
+         <div style="position:relative">
+            <div class="default-text"><strong>The ‘hamza’ with short vowels:</strong></div>
+         </div>
+         <div class="default-text-italic">It sounds like a glottal stop followed or preceded by a short vowel.</div>
+         <br>
+         <div class="default-text">Beginning of a word:</div>
+         <ion-row>
+            <!-- <ion-col class="col-10">
+</ion-col> -->
+            <ion-col>
+               <div class="box">
+                  <div class="arabic-text scheherazade cell">إ</div>
+                  <div class="default-text cell last"><span class="highlight">‘</span>e</div>
+               </div>
+            </ion-col>
+            <ion-col>
+               <div class="box">
+                  <div class="arabic-text scheherazade cell">ُأ</div>
+                  <div class="default-text cell last"><span class="highlight">‘</span>u</div>
+               </div>
+            </ion-col>
+            <ion-col>
+               <div class="box">
+                  <div class="arabic-text scheherazade cell">َأ</div>
+                  <div class="default-text cell last"><span class="highlight">‘</span>a</div>
+               </div>
+            </ion-col>
+            <!-- <ion-col class="col-10">
+</ion-col> -->
+         </ion-row>
+
+         <br>
+         <div class="default-text">Middle of a word:</div>
+         <ion-row>
+            <!-- <ion-col class="col-10">
+</ion-col> -->
+            <ion-col>
+               <div class="box">
+                  <div class="arabic-text scheherazade cell">ـئـ&#x2008;<span
+                        class="black centerpipe">|</span>&#x2008;ـئ</div>
+                  <div class="default-text cell last">e<span class="highlight">‘</span></div>
+               </div>
+            </ion-col>
+            <ion-col>
+               <div class="box">
+                  <div class="arabic-text scheherazade cell">ؤـ&#x2008;<span class="black centerpipe">|</span>&#x2008;ؤ
+                  </div>
+                  <div class="default-text cell last">u<span class="highlight">‘</span></div>
+               </div>
+            </ion-col>
+            <ion-col>
+               <div class="box">
+                  <div class="arabic-text scheherazade cell">أـ&#x2008;<span class="black centerpipe">|</span>&#x2008;أ
+                  </div>
+                  <div class="default-text cell last">a<span class="highlight">‘</span></div>
+               </div>
+            </ion-col>
+            <!-- <ion-col class="col-10">
+</ion-col> -->
+         </ion-row>
+
+         <br>
+         <div class="default-text">End of a word:</div>
+         <ion-row>
+            <!-- <ion-col class="col-10">
+</ion-col> -->
+            <ion-col>
+               <div class="box">
+                  <div class="arabic-text scheherazade cell">&#xFE8A;&#x2008;<span
+                        class="black centerpipe">|</span>&#x2008;ئ</div>
+                  <div class="default-text cell last">e<span class="highlight">‘</span></div>
+               </div>
+            </ion-col>
+            <ion-col>
+               <div class="box">
+                  <div class="arabic-text scheherazade cell">ؤـ&#x2008;<span class="black centerpipe">|</span>&#x2008;ؤ
+                  </div>
+                  <div class="default-text cell last">u<span class="highlight">‘</span></div>
+               </div>
+            </ion-col>
+            <ion-col>
+               <div class="box">
+                  <div class="arabic-text scheherazade cell">أـ&#x2008;<span class="black centerpipe">|</span>&#x2008;أ
+                  </div>
+                  <div class="default-text cell last">a<span class="highlight">‘</span></div>
+               </div>
+            </ion-col>
+            <!-- <ion-col class="col-10">
+</ion-col> -->
+         </ion-row>
+         <ion-row>
+            <ion-col class="text-center">
+               <ion-icon name="volume-medium" class="newaudiobutton text-center" [attr.sound-path]="audioHamzaShort"
+                  (click)="playAudio($event)">
+                  <!-- <audio [src]="audioHamzaShort | safeUrl"></audio> -->
+               </ion-icon>
+            </ion-col>
+         </ion-row>
+         <hr>
+         <div style="position:relative">
+            <div class="default-text"><strong>The ‘hamza’ with long vowels:</strong></div>
+         </div>
+
+         <div class="default-text">Followed by a long vowel:</div>
+         <ion-row>
+            <!-- <ion-col class="col-10">
+</ion-col> -->
+            <ion-col>
+               <div class="box">
+                  <div class="arabic-text scheherazade cell"><span style='color:black'>&#xFEF2;</span>&#xFE8B;</div>
+                  <div class="default-text cell last"><span class="highlight">‘e</span>e</div>
+               </div>
+            </ion-col>
+            <ion-col>
+               <div class="box">
+                  <div class="arabic-text scheherazade cell"><span style='color:black'>و</span>ؤ</div>
+                  <div class="default-text cell last"><span class="highlight">‘u</span>u</div>
+               </div>
+            </ion-col>
+            <ion-col>
+               <div class="box">
+                  <div class="arabic-text scheherazade cell">آ</div>
+                  <div class="default-text cell last"><span class="highlight">‘a</span>a</div>
+               </div>
+            </ion-col>
+            <!-- <ion-col class="col-10">
+</ion-col> -->
+         </ion-row>
+
+         <div class="default-text-italic"><strong>* The hamza followed by an alif becomes a ‘madda’: آ</strong></div>
+         <br>
+         <div class="default-text">Preceded by a long vowel:</div>
+         <ion-row>
+            <!-- <ion-col class="col-10">
+</ion-col> -->
+            <ion-col>
+               <div class="box">
+                  <div class="arabic-text scheherazade cell">ء<span style='color:black'>ي</span></div>
+                  <div class="default-text cell last">e<span class="highlight">e‘</span></div>
+               </div>
+            </ion-col>
+            <ion-col>
+               <div class="box">
+                  <div class="arabic-text scheherazade cell"> ء<span style='color:black'>و</span></div>
+                  <div class="default-text cell last">u<span class="highlight">u‘</span></div>
+               </div>
+            </ion-col>
+            <ion-col>
+               <div class="box">
+                  <div class="arabic-text scheherazade cell">ء<span style='color:black'>ا</span></div>
+                  <div class="default-text cell last">a<span class="highlight">a‘</span></div>
+               </div>
+            </ion-col>
+         </ion-row>
+         <ion-row>
+            <ion-col class="text-center">
+               <ion-icon name="volume-medium" class="newaudiobutton text-center" [attr.sound-path]="audioHamzaLong"
+                  (click)="playAudio($event)">
+                  <!-- <audio [src]="audioHamzaLong | safeUrl"></audio> -->
+               </ion-icon>
+            </ion-col>
+         </ion-row>
+      </div>
+   </div>
+</ion-content>

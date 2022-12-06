@@ -1,0 +1,19 @@
+<ion-content class="page background-diap-alt">
+  <div class="translatesentence ipadscaled">
+      <ion-row>
+          <ion-col>
+              <div class="default-text sentence" [ngClass]="[translateFrom, sentenceAnimation]">{{originalSentence}}</div>
+          </ion-col>
+      </ion-row>
+
+      <ion-row *ngFor="let translation of translations; let i = index;">
+          <!-- Check if the button is selected, and if it is check if it is correct or not -->
+          <ion-col>
+              <div class="button item-icon-left box box-{{i}}" [ngClass]="[translation.status, translateFrom, translation.animation]"
+                   (click)="select(translation)">
+                  <div class="arabic-text scheherazade sentence" [ngClass]="[translation.status,translateFrom]">{{translation.translation}}</div>
+              </div>
+          </ion-col>
+      </ion-row>
+  </div>
+</ion-content>

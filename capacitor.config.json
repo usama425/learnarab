@@ -1,0 +1,18 @@
+{
+  "appId": "com.imasterarabic.learnarab",
+  "appName": "LearnArab",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {},
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0,
+      "launchAutoHide": false,
+      "androidSpinnerStyle": "small",
+      "iosSpinnerStyle": "small",
+      "spinnerColor": "#FFFFFF",
+      "showSpinner": true
+    }
+  }
+}

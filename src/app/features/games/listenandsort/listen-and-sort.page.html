@@ -1,0 +1,26 @@
+<ion-content class="page background-diap-alt">
+  <div class="scroll">
+  <div class="listenandsort ipadscaled">
+      <ion-row>
+          <div class="level-image"></div>
+          <ion-col class="col-50"></ion-col>
+          <ion-col class="col-40 geluid">
+              <div class="newaudiobutton ion-android-volume-up roze">
+                <ion-icon name="volume-medium" [attr.sound-path]="sound" (click)="playAudio($event)">
+                  <!-- <audio [src]="sound | safeUrl"></audio> -->
+                </ion-icon>
+              </div>
+          </ion-col>
+        </ion-row>
+      <div *ngFor="let word of words" >
+          <ion-row class="row-center">
+              <ion-col size="10" offset="1">
+                  <div class="button item-icon-left" (click)="select(word)" [ngClass]="word.wordStatus">
+                      <div class="arabic-text scheherazade">{{word.word}}</div>
+                  </div>
+              </ion-col>
+          </ion-row>
+      </div>
+  </div>
+</div>
+</ion-content>

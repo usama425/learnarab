@@ -1,0 +1,141 @@
+.name, .arabic-text.sign, .arabic-text.scheherazade {
+    font-family: "Helvetica Neue",Roboto,"Segoe UI" !important;
+}
+.learnvowels ion-col {
+    margin-top: 3vw;
+}
+.col-10 {
+    -webkit-box-flex: 0;
+    flex: 0 0 10%;
+    max-width: 10%;
+}
+.scroll {
+    padding-bottom: 12vw;
+}
+.learnvowels {
+    .col.center{
+        text-align: center;
+    }
+    .col{
+        margin-top: 3vw;
+    }
+    .default-text{
+        text-align: center;
+        font-size: 6vw;
+        line-height: 7vw;
+        min-height: 7vw;
+        &.extra{
+            line-height: 6vw;
+        }
+
+        &.header {
+            font-size: 3.7vw;
+            font-weight: 600;
+
+        }
+        &.last {
+            border-bottom: none;
+        }
+        &.cell {
+            font-size: 4.7vw;
+        }
+        &.position {
+            font-size: 3.5vw;
+        }
+    }
+    .withLine{
+        border-bottom: solid thin black;
+        margin-left: 5vw;
+        width: 90vw;
+
+
+    }
+    .black {
+        color:black;
+    }
+    mark{
+        background-color: #5bb600;
+    }
+    .name{
+        text-align: right;
+//        border-right: solid 3px black;
+        padding-right: 1vw;
+        display: inline-block;
+        font-size:9.5vw;
+
+    }
+    .highlight{
+        color: #5bb600;
+    }
+    .arabic-text{
+        color:#5bb600;
+        text-align: center;
+        // font-size: 10vw;
+        // line-height: 8.5vw;
+        height: 12vw;
+        max-height: 12vw;
+        unicode-bidi: bidi-override;
+        margin-top:1vw;
+        &.last {
+            border-bottom: none;
+        }
+        &.low {
+            line-height: 14vw;
+            font-size: 14vw;
+        }
+        &.high {
+            line-height: 0vw;
+            font-size: 14vw;
+            margin-top: -4vw;
+            margin-bottom: 4vw;
+        }
+        &.sign{
+            border-bottom: none;
+            text-align: left;
+            font-size: 14vw;
+            display: inline-block;
+            padding-left: 1vw;
+        }
+        &.large{
+            font-size: 11vw;
+            line-height: 13vw;
+            height: 13vw;
+            max-height: 13vw;
+        }
+    }
+    .box{
+        border-color: black;
+        border-width: thin;
+        border-style: solid;
+        height:26vw;
+        width: 100%;
+        padding-top:2vw;
+    }
+    .learnscreen {
+        position:absolute;
+        top:8vw;
+        right:5vw;
+    }
+    .newaudiobutton {
+        // @include size8dbutton(15vw);
+        line-height:15vw;
+        text-align: center;
+        margin: auto;
+        vertical-align: middle;
+    }
+}
+
+.platform-browser,
+.platform-android {
+    .arabic-text.high {
+        line-height: 8vw;
+        font-size: 22vw;
+    }
+    .arabic-text.low {
+        line-height: 18vw;
+        font-size: 22vw;
+    }
+    .arabic-text {
+        font-size: 12vw;
+    }
+}

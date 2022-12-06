@@ -1,0 +1,52 @@
+.overlay-Active {
+    width: 100vw;
+    height: 100vh;
+    margin-bottom:0vh;
+    top: 0vw;
+    -webkit-transition: top 0.6s ease-out;
+    -moz-transition: top 0.6s ease-out;
+    -o-transition: top 0.6s ease-out;
+    transition: top 0.6s ease-out;
+    background-color:#FFF;
+    background-image: url("../../../../assets/images/geest_transp.png");
+    background-repeat: no-repeat;
+    background-position: -1vh;
+    background-size: 100% 100%;
+    position: absolute;
+    z-index:8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 15vw;
+  
+}
+.alert-text{
+    font-family: "Podkova";
+    font-size: 3.6vw;
+    text-align: center;
+    line-height: 4.4vw;
+    width: 100%;
+    white-space: pre-wrap;
+    margin-top: 6vh;
+
+    @media screen and (max-height: 425px) {
+        font-size: 2vw;
+        line-height: 2vw;
+        margin-top: 8vh;
+    }
+
+    @media screen and (min-width: 767px) {
+        font-size: 3.4vw;
+    }
+
+    @media screen and (min-width: 1023px) {
+        font-size: 2.5vw;
+        line-height: 3.6vw;
+    }
+}
+
+p {
+    margin: 0;
+}
+  

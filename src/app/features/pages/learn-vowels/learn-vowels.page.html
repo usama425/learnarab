@@ -1,0 +1,83 @@
+<ion-content class="page background-diap-alt">
+    <div class="learnvowels">
+        <br />
+        <div class="default-text">In Arabic, there are<br>
+            3 <mark> ‘LONG’</mark> vowels
+            <ion-icon name="volume-medium" class="newaudiobutton" [attr.sound-path]="longVowelsSound" (click)="playAudio($event)">
+                <!-- <audio [src]="longVowelsSound | safeUrl"></audio> -->
+            </ion-icon>
+            <ion-row class="withLine">
+                <ion-col class="col-10">
+                </ion-col>
+                <ion-col>
+                    <div class="default-text header">Vowel</div>
+                </ion-col>
+                <ion-col>
+                    <div class="default-text header">Sound</div>
+                </ion-col>
+                <ion-col>
+                    <div class="default-text header">Name</div>
+                </ion-col>
+                <ion-col class="col-10">
+                </ion-col>
+            </ion-row>
+
+            <ion-row class="withLine" *ngFor="let v of longVowels; let i = index;">
+                <ion-col class="col-10">
+                </ion-col>
+                <ion-col>
+                    <div class="arabic-text scheherazade cell" [class.firstletter]="i == 0">{{v.vowal}}</div>
+                </ion-col>
+                <ion-col>
+                    <div class="default-text cell" [class.last]="i == 2">{{v.sound}}</div>
+                </ion-col>
+                <ion-col>
+                    <div class="default-text cell" [class.last]="i == 2">{{v.name}}</div>
+                </ion-col>
+                <ion-col class="col-10">
+                </ion-col>
+            </ion-row>
+
+            <br>
+            <br>
+
+            <div class="default-text">And 4 <mark>‘SHORT’</mark> vowels <br>in the form of accents
+                <ion-icon name="volume-medium" class="newaudiobutton" [attr.sound-path]="shortVowelsSound" (click)="playAudio($event)">
+                    <!-- <audio [src]="shortVowelsSound | safeUrl"></audio> -->
+                </ion-icon>
+                <ion-row class="withLine">
+                    <ion-col>
+                        <div class="default-text header">Accent</div>
+                    </ion-col>
+                    <ion-col>
+                        <div class="default-text header">Sound</div>
+                    </ion-col>
+                    <ion-col>
+                        <div class="default-text header">Name</div>
+                    </ion-col>
+                    <ion-col>
+                        <div class="default-text header">Position</div>
+                    </ion-col>
+                </ion-row>
+
+                <ion-row class="withLine" *ngFor="let v of shortVowels; let i = index;">
+                    <ion-col>
+                        <div class="arabic-text scheherazade cell {{v.cellClass}}"
+                        [class.lastletter]="i == 4" [innerHtml]="v.vowal"></div>
+                        <!-- {{i == 3 ? 'last' : 'cell'}} -->
+                    </ion-col>
+                    <ion-col>
+                        <div class="default-text cell">{{v.sound}}</div>
+                    </ion-col>
+                    <ion-col>
+                        <div class="default-text cell">{{v.name}}</div>
+                    </ion-col>
+                    <ion-col>
+                        <div class="default-text position">{{v.position}}</div>
+                    </ion-col>
+                </ion-row>
+
+            </div>
+        </div>
+    </div>
+</ion-content>

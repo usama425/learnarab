@@ -1,0 +1,127 @@
+<ion-content class="page background-diap-alt">
+    <div class="leveltest">
+        <ion-row class="">
+            <ion-col class="col-center">
+                <div class="cirkel-letter">
+                    <div class="info">
+                        <a [routerLink]="letterInfoLink">
+                            <div class='infobutton'>i</div>
+                        </a>
+                    </div>
+                    <div class="letter">{{letter}}</div>
+                </div>
+            </ion-col>
+
+            <ion-col class="col-center">
+                <div class="name">{{letterPhonetic}}</div>
+            </ion-col>
+
+            <ion-col>
+                <div class="test1"><a routerLink="/games/readandlearn/{{letter}}"><img class="test-image"
+                            src="assets/images/test1.png">
+                    </a>
+                </div>
+            </ion-col>
+
+        </ion-row>
+        <div class="horizontal-line"></div>
+        <!--    tweede rij-->
+        <ion-row class=" tweede">
+            <ion-col [ngClass]="{ 'notClickable' : !matchwordAvailable }">
+                <a routerLink="/games/matchthewords/{{letter}}">
+                    <progress-bar class="progressBarsLeveltest" [barValue]="matchword" [frontBarClasses]="[0,25,75,100]"
+                        [backBarClasses]="[100]">
+                    </progress-bar>
+                    <img class="test-image" src="assets/images/test2.png">
+                </a>
+            </ion-col>
+            <ion-col [ngClass]="{ 'notClickable' : !matchingletterAvailable }">
+                <a routerLink="/games/matchingletter/{{letter}}">
+                    <progress-bar class="progressBarsLeveltest" [barValue]="matchingletter"
+                        [frontBarClasses]="[0,25,75,100]" [backBarClasses]="[100]">
+                    </progress-bar>
+                    <img class="test-image" src="assets/images/test3.png">
+
+                </a>
+            </ion-col>
+
+            <ion-col [ngClass]="{ 'notClickable' : !mixandmatchAvailable }">
+                <a routerLink="/games/mixandmatch/{{letter}}">
+
+                    <progress-bar class="progressBarsLeveltest" [barValue]="mixnmatch" [frontBarClasses]="[0,25,75,100]"
+                        [backBarClasses]="[100]">
+                    </progress-bar>
+
+                    <img class="test-image" src="assets/images/test5.png">
+                </a>
+            </ion-col>
+        </ion-row>
+        <!--    derde rij-->
+        <ion-row class=" derde">
+
+            <ion-col [ngClass]="{ 'notClickable' : !wordpuzzleAvailable }">
+                <a routerLink="/games/wordpuzzle/{{letter}}">
+                    <progress-bar class="progressBarsLeveltest" [barValue]="wordpuzzle"
+                        [frontBarClasses]="[0,25,75,100]" [backBarClasses]="[100]">
+                    </progress-bar>
+
+                    <img class="test-image" src="assets/images/test6.png">
+                </a>
+            </ion-col>
+            <ion-col [ngClass]="{ 'notClickable' : !listennpickAvailable }">
+                <a routerLink="/games/listenandpick/{{letter}}">
+                    <progress-bar class="progressBarsLeveltest" [barValue]="listenandpick"
+                        [frontBarClasses]="[0,25,75,100]" [backBarClasses]="[100]">
+                    </progress-bar>
+                    <img class="test-image" src="assets/images/test10.png">
+                </a>
+            </ion-col>
+            <ion-col [ngClass]="{ 'notClickable' : !missingwordAvailable }">
+                <a routerLink="/games/missingword/{{letter}}">
+                    <progress-bar class="progressBarsLeveltest" [barValue]="missingword"
+                        [frontBarClasses]="[0,25,75,100]" [backBarClasses]="[100]">
+                    </progress-bar>
+
+                    <img class="test-image" src="assets/images/test4.png">
+
+                </a>
+            </ion-col>
+
+
+        </ion-row>
+        <!--    vierde rij-->
+        <ion-row class=" vierde">
+            <ion-col [ngClass]="{ 'notClickable' : !listennsortAvailable }">
+                <a routerLink="/games/listenandsort/{{letter}}">
+                    <progress-bar class="progressBarsLeveltest" [barValue]="listennsort"
+                        [frontBarClasses]="[0,25,75,100]" [backBarClasses]="[100]">
+                    </progress-bar>
+                    <img class="test-image" src="assets/images/test9.png">
+
+
+                </a>
+            </ion-col>
+            <ion-col [ngClass]="{ 'notClickable' : !translatesentenceAvailable }">
+                <a routerLink="/games/translatesentence/{{letter}}">
+                    <progress-bar class="progressBarsLeveltest" [barValue]="rightsentencepick"
+                        [frontBarClasses]="[0,25,75,100]" [backBarClasses]="[100]">
+                    </progress-bar>
+                    <img class="test-image" src="assets/images/test7.png">
+
+
+                </a>
+            </ion-col>
+            <ion-col [ngClass]="{ 'notClickable' : !rightsentenceAvailable }">
+
+                <a routerLink="/games/rightsentence/{{letter}}">
+                    <progress-bar class="progressBarsLeveltest" [barValue]="rightsentencesort"
+                        [frontBarClasses]="[0,25,75,100]" [backBarClasses]="[100]">
+                    </progress-bar>
+                    <img class="test-image" src="assets/images/test8.png">
+                </a>
+            </ion-col>
+
+
+        </ion-row>
+    </div>
+</ion-content>

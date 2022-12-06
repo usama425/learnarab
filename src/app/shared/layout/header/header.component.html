@@ -1,0 +1,29 @@
+<ion-toolbar>
+    <ion-buttons class="left-icons" slot="start" color="light">
+        <ion-icon class="navigation-icon" slot="icon-only" color="light" [name]="backIcon" (click)="goBack()"></ion-icon>
+        <!-- <ion-back-button slot="icon-only" color="light" text="" [icon]="backIcon" defaultHref="home"></ion-back-button> -->
+        <ion-icon class="info-icon" name="information-circle-outline" *ngIf="routeData?.showInfoIcon" (click)="toggleInfo.emit()"></ion-icon>
+    </ion-buttons>
+
+
+    <ion-buttons class="action-icons" slot="end" color="light">
+        <ion-icon id="languageIcon" name="reload-sharp" [ngClass]="wordIconClass" (click)="switchCards()"
+            *ngIf="routeData?.showReloadIcon"></ion-icon>
+
+        <ion-icon id="shuffleIcon" name="shuffle-sharp" [ngClass]="shuffleIconClass" (click)="switchShuffleWords()"
+            *ngIf="routeData?.showShuffleIcon"></ion-icon>
+
+        <ion-icon id="starIcon" name="star-sharp" (click)="switchShowFavorites()" [ngClass]="favoriteIconClass"
+            *ngIf="routeData?.showFavoriteIcon">
+        </ion-icon>
+
+        <div id="currentScore" *ngIf="routeData?.gameIcons">{{currentScore | pad}}</div>
+
+        <div id="timerProgress" *ngIf="routeData?.gameIcons">
+            <timer></timer>
+        </div>
+    </ion-buttons>
+
+    <ion-title class="title" color="light">{{routeData?.title | uppercase}}</ion-title>
+
+</ion-toolbar>

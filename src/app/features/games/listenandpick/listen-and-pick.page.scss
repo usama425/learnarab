@@ -1,0 +1,93 @@
+.listenandpick {
+
+    .arabic-text{
+        text-align: center;
+        font-size: 8vw;
+        width:70vw;
+        color: black;
+
+    }
+    .col-center.geluid{
+        padding-top:4vw;
+        margin-bottom:8vw !important;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 1s;
+    }
+    .col-center.geluid.available{
+        opacity: 1;
+    }
+    //kameel element
+    .kameelimage{
+        background-image: url("../../../../assets/images/kameel.png");
+        width: 60%;
+        height: 75%;
+        position: absolute;
+        left: -1vw;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+    }
+    .mybutton.wolk{
+        background-image: url("../../../../assets/images/wolk.png");
+        position:relative;
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+        background-position:center;
+        height: 20vw;
+        background-color: transparent;
+        border: 0px;
+        margin-bottom:10vw;
+    }
+    .mybutton {
+        transition: margin-left 1s;
+        margin-left: -100vw;
+    }
+    .mybutton.available{
+        margin-left: 12vw;
+        transition-delay: 1s;
+    }
+    .mybutton.notused{
+        margin-left: 100vw;
+        transition-delay: 1s;
+    }
+    .mybutton.wolkgoed{
+        background-image: url("../../../../assets/images/wolk-groen.png");
+        position:relative;
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+        background-position:center;
+        height: 20vw;
+        background-color: transparent;
+        border: 0px;
+        border: none;
+        outline: none;
+        margin-left: 100vw;
+        transition-delay: 2s;
+    }
+    .mybutton.wolkfout{
+        /*TODO: wolk-rood image bestaat nog niet*/
+        background-image: url("../../../../assets/images/wolk-rood.png");
+        position:relative;
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+        background-position:center;
+        height: 20vw;
+        background-color: transparent;
+        border: 0px;
+        border: none;
+        outline: none;
+        margin-left: 100vw;
+        transition-delay: 2s;
+    }
+    .newaudiobutton {
+        // @include sizedbutton(25vw);
+        width:25vw;
+        height:25vw;
+        font-size:25vw*0.7;
+        line-height:25vw;
+        text-align: center;
+        margin: auto !important;
+        margin: 1vw 0 0 1vw;
+    }
+}

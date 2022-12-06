@@ -1,0 +1,23 @@
+<ion-content class="background-diap-alt">
+  <ion-row>
+    <ion-col *ngIf="productPrice">
+      <div class="lead">Upgrade to remove all ads!</div>
+      <div class="default-text">
+        <p>Practice and play without interruption.</p>
+        <button class="main-btn font-sm" (click)="purchase()" >
+          REMOVE ADS {{productPrice}}
+        </button>
+        <p><br />If you have already bought the upgrade on another device...</p>
+        <button class="main-btn font-sm" (click)="restore()">
+          Restore previous purchase
+        </button>
+      </div>
+    </ion-col>
+    <ion-col *ngIf="!productPrice">
+      <div class="loader">
+        <ion-spinner name="dots"></ion-spinner>
+        <p class="ion-text-center">Loading. Please wait...</p>
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-content>

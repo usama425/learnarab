@@ -1,0 +1,19 @@
+<ion-content class="page background-diap-alt">
+    <div class="readandlearn ipadscaled">
+        <ion-row class="wordcards" *ngFor="let word of gameWordArrayShuffled">
+            <div class="card" (click)="flipCard(word)" *ngIf="!(showFavorites && !word.isFavorite)">
+                <div *ngIf="word.showArabicWord" class="audioButtonDiv">
+                    <ion-icon name="volume-medium" class="newaudiobutton" [attr.sound-path]="word.sound" (click)="playAudio($event)"></ion-icon>
+                </div>
+                <ion-icon name="star-sharp" class="favorite button" [ngClass]="word" (click)="toggleFavorite(word,$event)"></ion-icon>
+                <!-- <div class="button button-icon icon ion-ios-star favorite" [ngClass]="word"></div> -->
+
+                <div *ngIf="word.showArabicWord" class="default-text arabic scheherazade">{{word.arabic_word}}
+                    <ion-icon name="help-circle-outline" class="icon-help" (click)="showSpecialHelp($event, word.specialText)" *ngIf="word.specialText"></ion-icon>
+                </div>
+
+                <div *ngIf="!word.showArabicWord" class="default-text english">{{word.english_word}}</div>
+            </div>
+        </ion-row>
+    </div>
+</ion-content>

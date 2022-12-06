@@ -1,0 +1,43 @@
+<ion-content class="page background-diap-alt">
+    <div class="learnvowels">
+        <!--    eerste box-->
+        <ion-row class="row-center">
+            <ion-col class="center">
+                <div class="name klank">alif maqsura :
+                </div>
+
+                <div class="arabic-text scheherazade sign">
+                    ى
+                </div>
+            </ion-col>
+        </ion-row>
+        <div class="default-text" style="margin-top:4vw">Occurs exclusively at the end of (mainly masculine) words, as
+            well as verbs and prepositions.
+
+            It sounds like the ‘alif’ and does not carry any vowels.</div>
+        <div class="default-text" style="margin-top:8vw">Writing</div>
+        <ion-row>
+            <ion-col class="col-10">
+            </ion-col>
+            <ion-col>
+                <div class="box">
+                    <div class="arabic-text scheherazade cell">ىـ</div>
+                    <div class="default-text cell last" style="font-size:4vw;margin-top:2vw">(end, attached)</div>
+                </div>
+            </ion-col>
+            <ion-col>
+                <div class="box">
+                    <div class="arabic-text scheherazade cell">ى</div>
+                    <div class="default-text cell last" style="font-size:4vw;margin-top:2vw">(end, unattached)</div>
+                </div>
+            </ion-col>
+            <ion-col class="col-10">
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-icon name="volume-medium" class="newaudiobutton text-center" [attr.sound-path]="audioAlifmaqsura" (click)="playAudio($event)">
+                <!-- <audio [src]="audioAlifmaqsura | safeUrl"></audio> -->
+            </ion-icon>
+        </ion-row>
+    </div>
+</ion-content>

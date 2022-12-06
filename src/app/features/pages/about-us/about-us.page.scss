@@ -1,0 +1,19 @@
+.colofon {
+    position: relative;
+    z-index: 1;
+    img{
+        float:left;
+    }
+    .colofonimage{
+        width: 48vw;
+        float:left;
+        margin: 0 3vw -2vw 0;
+    }
+    .inlineURL{
+        text-decoration: underline;
+    }
+    margin-bottom:16vw;
+}
+.background-diap-alt {
+    position: fixed;
+}

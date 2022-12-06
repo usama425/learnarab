@@ -1,0 +1,106 @@
+.rightsentence {
+    //    -ms-transform: rotate(90deg); /* IE 9 */
+    //    -webkit-transform: rotate(90deg); /* Safari */
+    //    transform: rotate(90deg);
+    //    width:100vh;
+    //    height:100vw;
+    
+    
+        .default-text.sentence{
+            font-size: 7vw;
+            line-height: 9vw;
+            font-weight: 600;
+            padding-bottom: 6vw;
+        }
+        .words{
+            margin-right: 2vw;
+        }
+        .arabic-text{
+            line-height: 13vw;
+            font-size: 5.2vw;
+            text-align:right;
+            //background-color: rgba(242, 242, 242, 0.5);
+            //box-shadow: 2px 2px 2px 0.5px #ccc;
+            border-color: transparent;
+          direction: rtl;
+    
+        }
+        .arabic-text.fout{
+            background-color: rgba(239, 65, 54, 0.5);
+        }
+        .arabic-text.goed{
+            background-color: rgba(141, 198, 63, 0.5);
+        }
+    
+    //    Animations
+        .sentenceToTranslate {
+            &.invisible {
+                transition: none;
+                opacity: 0;
+            }
+            &.visible {
+                transition: opacity 1s linear 1s;
+                opacity: 1;
+            }
+            &.disappearing {
+                transition: opacity 1s linear 1s;
+                opacity: 0;
+            }
+        }
+        .wordList {
+            &.invisible {
+                transition: none;
+                margin-left: -100%;
+            }
+            &.visible {
+                transition: margin-left 1s linear 1s;
+                margin-left: 0px;
+            }
+            &.disappearing {
+                transition: margin-left 1s linear 1s;
+                margin-left: -100%;
+            }
+            position:relative;
+            z-index: 9998;
+        }
+    
+    
+        .item {
+            padding: 1vw;
+        }
+        .myaudiobutton.ion-android-volume-up.roze {
+            width:20vw;
+            height:20vw;
+        }
+    }
+
+
+    .sortable-container {
+        > div {
+            display: inline-block;
+            border: none;
+            background-color: transparent;
+            padding: 0;
+            margin-bottom: 5px;
+
+            .item {
+                margin-right: 2px;
+                cursor: -webkit-grab;
+                color: #444;
+                display: block;
+                border-width: 1px;
+                border-style: solid;
+            }
+
+            .drop-zone {
+                height: 17vw !important;
+            }
+        }
+    }
+    
+.smallerfont {
+    font-size: 4vw !important;
+}
+.mediumfont {
+    font-size: 4.6vw !important;
+}

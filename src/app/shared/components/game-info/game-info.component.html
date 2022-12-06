@@ -1,0 +1,14 @@
+<div class="gameinfo" (swipe)="switch($event)">
+  <div [ngStyle]="heightStyle" [ngClass]="gameInfoActive ? 'overlay-Active' : 'overlay-Inactive'" >
+      <ion-row class="helptext">
+          <div>
+            <div class="alert-text" [innerHtml]="gameInfoText"></div>
+          </div>
+      </ion-row>
+      <ion-row>
+          <ion-col class="ion-text-center">
+              <ion-icon class="button icon-up button-clear button-dark" (click)="switch($event)" name="chevron-up-outline"></ion-icon>
+          </ion-col>
+      </ion-row>
+  </div>
+</div>

@@ -1,0 +1,36 @@
+Steps to Build App:
+=================================
+1. Add Platform:
+    npm run android-Add
+
+2. Build App and Sync: 
+    npm run android-Build
+
+3. Generate Resouces (Splash & App Icons):
+    npm run resources-android
+
+
+Issues:
+===================================
+
+1. Admob-free plugin crash issue: 
+Failed resolution of: Lcom/google/android/gms/internal/zzur;
+    at com.google.android.gms.ads.BaseAdView
+
+Solution: 
+Need to update below dependecies in build.grade (capcitor-cordova-android-plugins)
+
+Dependecies:
+implementation 'com.google.android.gms:play-services-base:16.0.1'
+implementation 'com.google.android.gms:play-services-ads:16.0.0'
+implementation 'com.google.android.gms:play-services-gcm:16.0.0'
+
+Reference Url:
+https://github.com/ratson/cordova-plugin-admob-free/issues/216#issuecomment-431260671
+
+Android Manifest file change:
+include below external storage permission in application tag in AndroidManifesh.xml
+- android:requestLegacyExternalStorage="true"
+Add below user permission
+- <uses-permission android:name="com.android.vending.BILLING" />
+

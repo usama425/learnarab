@@ -1,0 +1,95 @@
+<ion-content class="page background-diap-alt">
+    <div class="learnvowels taamarbuta">
+        <!--    eerste box-->
+        <ion-row class="row-center">
+            <ion-col class="center">
+                <div class="name klank">taa marbuta :
+                </div>
+
+                <div class="arabic-text scheherazade sign">
+                    ة
+                </div>
+            </ion-col>
+        </ion-row>
+        <div class="default-text extra"><br />Occurs exclusively at the end of<br /> (mainly feminine) words! </div>
+        <br /><br />
+        <div class="default-text extra"><strong>At the end of a word:</strong> <br />unattached to previous letter:
+            <ion-row>
+                <ion-col class="col-10">
+                </ion-col>
+                <ion-col>
+                    <div class="box">
+                        <div class="arabic-text scheherazade cell"><span class="black low">ِ</span>ة</div>
+                        <p>
+                            <div class="default-text cell last"><span class="highlight">t</span>e</div>
+                    </div>
+                </ion-col>
+                <ion-col>
+                    <div class="box">
+                        <div class="arabic-text scheherazade cell"><span class="black">ُ</span>ة</div>
+                        <p>
+                            <div class="default-text cell last"><span class="highlight">t</span>u</div>
+                    </div>
+                </ion-col>
+                <ion-col>
+                    <div class="box">
+                        <div class="arabic-text scheherazade cell"><span class="black">َ</span>ة</div>
+                        <p>
+                            <div class="default-text cell last"><span class="highlight">t</span>a</div>
+                    </div>
+                </ion-col>
+                <ion-col>
+                    <div class="box">
+                        <div class="arabic-text scheherazade cell">ة</div>
+                        <p>
+                            <div class="default-text cell last"><span class="highlight">a</span></div>
+                    </div>
+                </ion-col>
+                <ion-col class="col-10">
+                </ion-col>
+            </ion-row>
+            <br />
+            <div class="default-text extra"><strong>At the end of a word:</strong> <br />attached to previous letter:
+                <ion-row>
+                    <ion-col class="col-10">
+                    </ion-col>
+                    <ion-col>
+                        <div class="box">
+                            <div class="arabic-text scheherazade cell"><span class="black low">ِ</span>ةـ</div>
+                            <p>
+                                <div class="default-text cell last"><span class="highlight">t</span>e</div>
+                        </div>
+                    </ion-col>
+                    <ion-col>
+                        <div class="box">
+                            <div class="arabic-text scheherazade cell" style="font-face:Tahoma;"><span
+                                    class="black">ُ</span>ةـ</div>
+                            <p>
+                                <div class="default-text cell last"><span class="highlight">t</span>u</div>
+                        </div>
+                    </ion-col>
+                    <ion-col>
+                        <div class="box">
+                            <div class="arabic-text scheherazade cell"><span class="black">َ</span>ةـ</div>
+                            <p>
+                                <div class="default-text cell last"><span class="highlight">t</span>a</div>
+                        </div>
+                    </ion-col>
+                    <ion-col>
+                        <div class="box">
+                            <div class="arabic-text scheherazade cell">ةـ</div>
+                            <p>
+                                <div class="default-text cell last"><span class="highlight">a</span></div>
+                        </div>
+                    </ion-col>
+                    <ion-col class="col-10">
+                    </ion-col>
+                </ion-row>
+
+            </div>
+        </div>
+        <ion-icon name="volume-medium" class="newaudiobutton text-center" [attr.sound-path]="audioTamarbuta" (click)="playAudio($event)">
+            <!-- <audio [src]="audioTamarbuta | safeUrl"></audio> -->
+        </ion-icon>
+    </div>
+</ion-content>

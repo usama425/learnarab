@@ -1,0 +1,277 @@
+
+::ng-deep {
+    .plt-android,
+    .plt-ios,
+    .plt-browser {
+        .learn.d, .learn.dh, .learn.taa, .learn.thaa, .learn.faa, .learn.Taa, .learn.Zhaa, .learn.kaf, .learn.haa {
+            .box.second.lowaccent .arabic-text {
+                position:relative;
+                top:2vw;       
+            }
+            .box.second.lowaccent .arabic-text .highlight {
+                position:relative;
+                top:-2vw;
+            }
+        }
+        .learn.Taa, .learn.Zhaa {
+            .box.second .arabic-text .highlight {
+                margin-left:-2vw;
+                margin-right:-2vw;
+                font-size:8.5vw;
+            }
+        }
+        .learn.yaa {
+            .box.second.lowaccent .arabic-text {
+                position:relative;
+                top:4.5vw;       
+            }
+            .box.second.lowaccent .arabic-text .highlight {
+                position:relative;
+                top:-4.5vw;
+            }
+        }
+        .learn.ghayn, .learn.a_3ayn, .learn.a_seen, .learn.a_sheen, .learn.a_Daad {
+            .box.second.lowaccent .arabic-text {
+                position:relative;
+                top:3.5vw;       
+            }
+            .box.second.lowaccent .arabic-text .highlight {
+                position:relative;
+                top:-3.5vw;
+            }
+            .box.second .arabic-text .highlight {
+                margin-left:-2vw;
+                margin-right:-2vw;
+                font-size:8.5vw;
+            }
+        }
+        .learn.a_d, .learn.a_dh, .learn.raa, .learn.zay, .learn.wow {
+            .box.second .arabic-text .highlight {
+                margin-left:-1vw;
+                margin-right:-2vw;
+                font-size:9.5vw;
+            }
+        }
+        .learn {
+            .box.second .arabic-text {
+                margin-top:-2vw;
+                padding-left:0vw;
+                font-size:14vw;
+            }
+            .box.second.lowaccent .arabic-text {
+                position:relative;
+                top:3vw;       
+            }
+            .box.second .arabic-text .highlight {
+                margin-left:-2vw;
+                margin-right:-2vw;
+                font-size:9.5vw;
+            }
+            .box.second.lowaccent .arabic-text .highlight {
+                position:relative;
+                top:-3vw;
+            }
+            .box .arabic-text.scheherazade {
+                margin-top:0vw;
+                line-height:12vw;
+            }
+
+            .box.second .default-text.naam{
+                text-align: center;
+                margin-top: 0;
+                font-weight: bold;
+            }
+            .lowaccent .divider {
+                position:relative;
+                top: -3vw;
+            }
+
+        }
+        .hamza, .taamarbuta {
+            .cell {
+                line-height: 13vw;
+            }
+            .black {
+                margin-left:-3vw;
+                margin-right:-3vw;
+                font-size: 14vw;
+            }
+
+        }
+        .hamza {
+            .black {
+                margin-left:-3vw;
+                margin-right:-3vw;
+            }
+
+        }
+        .taamarbuta {
+            .black {
+                position: relative;
+                font-size: 18vw;
+                
+                margin-left: 3vw;
+                margin-right:-1vw;
+            }
+            .black.low {
+                top: 1vw;
+            }
+
+        }
+        
+        .learn {
+            .default-text{
+                text-align: center;
+                ::ng-deep .highlight {
+                    color: #5bb600;
+                }
+            }
+            .subheader {
+                line-height: 14vw;
+            }
+            .name.klank{
+                text-align: right;
+                font-size: 12vw;
+            }
+            .default-text.naam{
+                text-align: center;
+                font-weight: bold;
+                margin-top: 10px;
+            }
+            .arabic-text{
+                text-align: center;
+
+                p {
+                    margin: 0;
+                }
+            }
+            .box .arabic-text {
+                margin-top: 0vw;
+                line-height: 12vw;
+            }
+
+            .arabic-text { 
+                ::ng-deep .highlight{
+                    color: #5bb600;
+                }
+                
+            }
+            .arabic-text .accent{
+                position: absolute;
+                margin-top: 0vw;
+                margin-left: -4vw;
+            }
+            .arabic-text .accentbelow{
+                position: absolute;
+                margin-top: -2vw;
+                margin-left: -5vw;
+            }
+            .arabic-text.sign{
+                color: #5bb600;
+                text-align: left;
+                font-size: 14vw;
+            }
+            &.Saad {
+                .arabic-text {
+                    font-size: 9vw !important;
+                }
+            }
+            &.Daad {
+                .arabic-text {
+                    font-size: 9vw !important;
+                }
+            }
+            .col{
+                padding:2px;
+            }
+            .box{
+                border-color: black;
+                border-width: thin;
+                border-style: solid;
+                min-height: 24vw;
+                width: 100%;
+                width: 100%;
+                // display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .blocks {
+                // width: 20vw;
+                margin-top:1vw;
+                // margin-left: 4vw;
+                display: flex;
+            justify-content: center;
+            }
+            .colorBlock {
+                background-color: #5bb600;
+                width: 2vw;
+                height:2vw;
+                float:left;
+            }
+            .spaceBlock {
+                background-color: transparent;
+                width: 1vw;
+                height:2vw;
+                float:left;
+            }
+            .blackBlock {
+                background-color: black;
+                width: 4vw;
+                float:left;
+                height:2vw;
+            }
+            .writingInstruction {
+                width:100%;
+                margin-top: 12vw;
+            }
+            .button.close {
+                margin-right: 1vw;
+                width:8vw;
+                font-size:6vw;
+            }
+            .divider {
+                margin-right:2vw;
+                margin-left: 2vw;
+                font-size: 12vw;
+                font-family: "scheherazade";
+            }
+        }
+    }
+}
+
+// .writingbutton {
+//     height: 54px;
+//     line-height: 54px;
+//     border-color: #ddd;
+//     --background: #fff !important;
+//     color: #444;
+//     border-width: 1px;
+//     border-style: solid;
+//     font-size: 16px;
+//     --ion-color-base: #fff !important;
+// }
+
+.writingbutton {
+    height: 7vh;
+    line-height: 7vh;
+    border-color: #ddd;
+    --background: #fff !important;
+    color: #444;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 4vw;
+    --ion-color-base: #fff !important;
+    text-transform: uppercase;
+}
+
+ion-col {
+    padding: 2px;
+}
+ion-row {
+    padding: 5px;
+}
+.arabic-letter {
+    bottom: 8px;
+    position: relative;
+}

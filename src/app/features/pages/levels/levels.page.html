@@ -1,0 +1,147 @@
+<ion-content class="page background-diap-alt">
+    <div class="levels">
+        <ion-row class="lampjes">
+            <ion-col class="col-10"></ion-col>
+            <ion-col>
+                <img class="lampje_aan" [ngClass]="showLamp1" src="assets/images/imageLamp.png" />
+            </ion-col>
+            <ion-col>
+                <img class="lampje_aan" [ngClass]="showLamp2" src="assets/images/imageLamp.png" />
+            </ion-col>
+            <ion-col>
+                <img class="lampje_aan" [ngClass]="showLamp3" src="assets/images/imageLamp.png" />
+            </ion-col>
+            <ion-col class="col-10"></ion-col>
+        </ion-row>
+
+        <div class="horizontal-line"></div>
+        <ion-row>
+            <ion-col>
+                <div class="default-text">letters</div>
+            </ion-col>
+
+            <ion-col>
+                <div class="default-text">progression</div>
+            </ion-col>
+        </ion-row>
+        <div class="horizontal-line"></div>
+
+        <ion-row class="row-center letter-progress">
+            <ion-col>
+                <div class="cirkel-letter">
+                    <div class="info">
+                        <a *ngIf="firstPhonetic != 'hamza' && firstPhonetic != 'madda'"
+                            routerLink="/pages/learn/{{encodedFirstLetter}}">
+                            <div class='infobutton'>i</div>
+                        </a>
+                        <a *ngIf="firstPhonetic == 'hamza'" routerLink="/pages/hamza">
+                            <div class='infobutton'>i</div>
+                        </a>
+                        <a *ngIf="firstPhonetic == 'madda'" routerLink="/pages/madda">
+                            <div class='infobutton'>i</div>
+                        </a>
+                    </div>
+                    <div class="letter scheherazade">{{firstLetter}}</div>
+                </div>
+            </ion-col>
+
+            <ion-col>
+                <div class="name">{{firstPhonetic}}</div>
+            </ion-col>
+
+            <ion-col>
+                <progress-bar class="averageBarOverview" [barValue]="firstAverage" [frontBarClasses]="[0,25,75,100]"
+                    [backBarClasses]="[100]">
+                </progress-bar>
+            </ion-col>
+
+            <ion-col>
+                <div class="test">
+                    <a routerLink="/pages/leveltest/{{encodedFirstLetter}}">
+                        <img class="test-image" src="assets/images/imageTest.png">
+                    </a>
+                </div>
+            </ion-col>
+
+        </ion-row>
+        <!--    tweede rij-->
+        <div class="horizontal-line"></div>
+
+
+        <ion-row class="row-center letter-progress">
+            <ion-col>
+                <div class="cirkel-letter">
+                    <div class="info">
+                        <a *ngIf="secondPhonetic != 'taa marbuta' && secondPhonetic != 'alif maqsura'"
+                            routerLink="/pages/learn/{{encodedSecondLetter}}">
+                            <div class='infobutton'>i</div>
+                        </a>
+                        <a *ngIf="secondPhonetic == 'taa marbuta'" routerLink="/pages/taamarboeta">
+                            <div class='infobutton'>i</div>
+                        </a>
+                        <a *ngIf="secondPhonetic == 'alif maqsura'" routerLink="/pages/alifmaqsoera">
+                            <div class='infobutton'>i</div>
+                        </a>
+                    </div>
+                    <div class="letter scheherazade">{{secondLetter}}</div>
+                </div>
+            </ion-col>
+
+            <ion-col>
+                <div class="name">{{secondPhonetic}}</div>
+            </ion-col>
+
+            <ion-col>
+                <progress-bar class="averageBarOverview" [barValue]="secondAverage" [frontBarClasses]="[0,25,75,100]"
+                    [backBarClasses]="[100]">
+                </progress-bar>
+            </ion-col>
+
+            <ion-col>
+                <div class="test">
+                    <a routerLink="/pages/leveltest/{{encodedSecondLetter}}"><img class="test-image"
+                            src="assets/images/imageTest.png">
+                    </a>
+                </div>
+            </ion-col>
+
+        </ion-row>
+        <!--       derde rij-->
+        <div *ngIf="thirdLetterExists" class="horizontal-line"></div>
+        
+        <ion-row *ngIf="thirdLetterExists" class="row-center letter-progress">
+            <ion-col>
+                <div class="cirkel-letter">
+                    <div class="info">
+                        <a routerLink="/pages/learn/{{encodedThirdLetter}}">
+                            <div class='infobutton'>i</div>
+                        </a>
+                    </div>
+                    <div class="letter scheherazade">{{thirdLetter}}</div>
+                </div>
+            </ion-col>
+
+            <ion-col>
+                <div class="name">{{thirdPhonetic}}</div>
+            </ion-col>
+
+            <ion-col>
+                <progress-bar class="averageBarOverview" [barValue]="thirdAverage" [frontBarClasses]="[0,25,75,100]"
+                    [backBarClasses]="[100]">
+                </progress-bar>
+            </ion-col>
+
+            <ion-col>
+                <div class="test"><a routerLink="/pages/leveltest/{{encodedThirdLetter}}"> <img class="test-image"
+                            src="assets/images/imageTest.png">
+
+                    </a>
+                </div>
+            </ion-col>
+
+        </ion-row>
+        <div class="horizontal-line"></div>
+
+
+    </div>
+</ion-content>

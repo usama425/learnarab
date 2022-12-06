@@ -1,0 +1,27 @@
+<ion-content class="page background-diap-alt">
+    <ion-row class="matchthewords ipadscaled">
+        <ion-col>
+            <ul *ngFor="let wordCombination of gameWordArrayShuffled; let i = index">
+                <li>
+                    <button class="button noDisplacement"
+                        [ngClass]="[wordCombination.english.status, wordCombination.english.animation]"
+                        (click)="wordClicker(wordCombination, i, 'english')">
+                        {{wordCombination.english.word}}
+                    </button>
+                </li>
+            </ul>
+        </ion-col>
+
+        <ion-col class="arabic-text scheherazade">
+            <ul *ngFor="let wordCombination of gameWordArrayShuffled; let i = index">
+                <li>
+                    <button class="button scheherazade noDisplacement"
+                        [ngClass]="[wordCombination.arabic.status,wordCombination.arabic.animation]"
+                        (click)="wordClicker(wordCombination, i, 'arabic')">
+                        {{wordCombination.arabic.word}}
+                    </button>
+                </li>
+            </ul>
+        </ion-col>
+    </ion-row>
+</ion-content>

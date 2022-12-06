@@ -1,0 +1,25 @@
+<ion-content class="page background-diap-alt">
+    <div class="missingword ipadscaled" [ngClass]="mainAnimation">
+        <ion-row>
+            <ion-col>
+                <div *ngIf="!wordFound" class="level-image arabic-text  scheherazade line" dir="rtl">
+                    <span id="sgapo" [innerHtml]="sentenceGap"></span>
+                </div>
+                <div *ngIf="wordFound" class="level-image arabic-text scheherazade line" dir="rtl">
+                    <span id="sgood" [innerHtml]="sentenceGood"></span>
+                </div>
+            </ion-col>
+        </ion-row>
+            <ion-icon name="volume-medium" class="newaudiobutton" [attr.sound-path]="audio_full" (click)="playAudio($event)">
+                <!-- <audio [src]="audio_full | safeUrl"></audio> -->
+            </ion-icon>
+        <div *ngFor="let word of words; let i = index;">
+            <ion-row class="row-center keuze">
+                <ion-col class="col-80" size="10" offset="1">
+                    <button class="arabic-text scheherazade button item-icon-left" [ngClass]="(i === selectedIndex) ? (word.isCorrectWord ? 'goed' : 'fout') : ''" (click)="select(word.isCorrectWord,i,$event)">{{word.word}}
+                    </button>
+                </ion-col>
+            </ion-row>
+        </div>
+    </div>
+</ion-content>

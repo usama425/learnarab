@@ -1,0 +1,449 @@
+body {
+    padding: 0;
+    overflow: hidden;
+}
+::-webkit-scrollbar {
+    display:hidden;
+}
+a, a:hover, a:visited a:active{
+    text-decoration: none;
+    color: black;
+}
+.button.icon-left.ion-chevron-left.button-clear.button-light {
+    color:#FFF;
+}
+
+.view-frame{
+    background-color: transparent;
+    margin:0;
+}
+//TEKSTELEMENTEN
+//platte tekst
+.default-text {
+    font-size:5vw;
+    line-height: 7vw;
+    font-family: sans-serif;
+}
+.default-text-italic{
+    font-size:4vw;
+    font-style: italic;
+    text-align: center;
+    line-height: 5vw;
+    font-family: sans-serif;
+    padding: 0 8vw;
+}
+.name{
+    font-family: "Podkova";
+    font-size: 5.4vw;
+    // line-height: 6.5vw;
+}
+
+.text-content {
+    padding: 10px 10px 80px;
+    text-align: left;
+}
+
+//platte tekst arabisch
+.arabic-text {
+    font-size:10vw;
+    line-height: 11vw;
+    // accenten voor in de helpteksten
+    &.highlighted {
+        color:#339933;
+    }
+    &.large {
+        font-size:13vw;
+    }
+    &.extralarge {
+        font-size:16vw;
+    }
+    &.small {
+        font-size:8vw;
+    }
+}
+.platform-browser,
+.platform-android {
+    .arabic-text {
+        font-size:12vw;
+    }
+}
+
+//kopjes vet
+.lead {
+    font-size:6vw;
+    line-height: 7vw;
+    font-weight: bold;
+}
+
+//letter in gouden cirkel
+.letter{
+    line-height: 17vw;
+    text-align: center;
+    font-size: 12vw;
+}
+
+//cirkel goud
+.cirkel-letter{
+    height: 20vw;
+    width: 20vw;
+    border-radius: 100%;
+    background-color: #cccc99;
+    position: relative;
+    // margin: 0 auto;
+}
+
+//naam onder goudencirkel bij 'learn by levels'
+.letter-name{
+    font-size: 5vw;
+    font-style: normal;
+    margin-top: 10%;
+    text-align: center;
+}
+
+//tekst in paarse balk bovenin
+.bar.title{
+    font-family: "Podkova";
+    font-weight: 400;
+    font-size: 7vw;
+    text-align: center;
+    margin-right: 8%;
+    color: white;
+    text-transform: uppercase;
+}
+
+.horizontal-line{
+    border-bottom: 1px solid #BCBEC0;
+}
+
+
+//BUTTONS
+//kleine grijze geluid buttons
+.audiobutton.ion-android-volume-up{
+    width: 10vw;
+    height: 10vw;
+    padding-left:1.3vw !important;
+    border-radius: 100%;
+    font-size: 5vw;
+    border: 1px solid #848587;
+    background: #ECE7EE;
+    background: linear-gradient(to top,  #C0C8CC,  #778B8C);
+}
+.audiobutton:active {
+    color: #000000 !important;
+    background: #ccc;
+    background: linear-gradient(to top,  #B7C4C9,  #E7E9EE);
+}
+
+.newaudiobutton{
+    border-radius: 100%;
+    border: 1px solid #848587;
+    background: #ECE7EE;
+    background: linear-gradient(to top,  #C0C8CC,  #778B8C);
+    color:black;
+}
+
+.infobutton {
+  @include sizedbutton(8vw);
+  position:absolute;
+  border-radius: 100%;
+  border: 3px solid #B35998;
+  background: #ECE7EE;
+  background: linear-gradient(to top,  #EED677,  #CFC270);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ECE7EE), to(#E1BDD6));
+  font-family: 'Podkova';
+  font-size: 7vw;
+  color:white;
+  margin-left: 15vw;
+  z-index: 1;
+}
+.newaudiobutton.roze{
+    border-radius: 100%;
+    border: 3px solid #B35998;
+    background: #ECE7EE;
+    background: linear-gradient(to top,  #EED677,  #CFC270);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ECE7EE), to(#E1BDD6));
+    color:black;
+}
+.newaudiobutton {
+    @include sizedbutton(9vw);
+    padding: 1.5vw;
+}
+.newaudiobutton:active {
+    color: #000000 !important;
+    background: #ccc;
+    background: linear-gradient(to top,  #B7C4C9,  #E7E9EE);
+}
+.newaudiobutton.active {
+    color: #000000 !important;
+    background: #ccc;
+    background: linear-gradient(to top,  #B7C4C9,  #E7E9EE);
+}
+.newaudiobutton.roze:active {
+    color: #000000 !important;
+    background: #15293D;
+    background: -webkit-gradient(linear, left top, left bottom, from(#E1BDD6), to(#ECE7EE));
+}
+.newaudiobutton.roze.active {
+    color: #000000 !important;
+    background: #15293D;
+    background: -webkit-gradient(linear, left top, left bottom, from(#E1BDD6), to(#ECE7EE));
+}
+//grote roze geluidbuttons
+//.myaudiobutton.ion-android-volume-up.roze{
+//    height: 40vw;
+//    width: 40vw;
+//    border-radius: 100%;
+//    font-size: 14vw;
+//    position: relative;
+//    border: 3px solid #B35998;
+//    background: #ECE7EE;
+//    background: linear-gradient(to top,  #EED677,  #CFC270);
+//    background: -webkit-gradient(linear, left top, left bottom, from(#ECE7EE), to(#E1BDD6));
+//}
+//.myaudiobutton.ion-android-volume-up.roze:active{
+//    color: #000000 !important;
+//    background: #15293D;
+//    background: -webkit-gradient(linear, left top, left bottom, from(#E1BDD6), to(#ECE7EE));
+//}
+//.myaudiobutton.ion-android-volume-up.roze:before{
+//    position:absolute;
+//    left:25%;
+//    top:18%;
+//    font-size: 100%
+//}
+
+//goudkleurige langwerpige button
+.button.item-icon-left{
+    width: 100%;
+    height: 14vw;
+    background-color: #CCCC99;
+    border-width: 0.4vw;
+    border-color: #CCCC99;
+    background: linear-gradient(to top,  #E2E0C2,  #CCCC99);
+    border-style: outset;
+    border-radius: 3vw;
+    margin-top: 2vw;
+}
+.button.item-icon-left.goed{
+    color: black!important;
+    border-color: #8DC63F !important;
+    background: -webkit-linear-gradient(top, #8DC63F, #8DC63F)!important;
+}
+.button.item-icon-left.fout {
+    color: black!important;
+    border-color: #EF4136 !important;
+    background: -webkit-linear-gradient(top, #EF4136, #EF4136)!important;
+}
+
+//ronde kleine buttons goudkleurig bij oa wordpuzzle en matching letter
+.button.cirkel-letter{
+    background: rgba(255,247,235,1);
+    background: -moz-linear-gradient(-45deg, rgba(255,247,235,1) 0%, rgba(233,229,200,1) 22%, rgba(204,204,153,1) 52%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,247,235,1)), color-stop(22%, rgba(233,229,200,1)), color-stop(52%, rgba(204,204,153,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(255,247,235,1) 0%, rgba(233,229,200,1) 22%, rgba(204,204,153,1) 52%);
+    background: -o-linear-gradient(-45deg, rgba(255,247,235,1) 0%, rgba(233,229,200,1) 22%, rgba(204,204,153,1) 52%);
+    background: -ms-linear-gradient(-45deg, rgba(255,247,235,1) 0%, rgba(233,229,200,1) 22%, rgba(204,204,153,1) 52%);
+    background: linear-gradient(135deg, rgba(255,247,235,1) 0%, rgba(233,229,200,1) 22%, rgba(204,204,153,1) 52%);
+    //        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff7eb', endColorstr='#cccc99', GradientType=1 );
+    width: 20vw;
+    height: 20vw;
+    border: 1px solid #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button.cirkel-letter.goed{
+    background:#8dc63f;
+}
+.button.cirkel-letter.fout{
+    background:#EF4136;
+}
+
+//ACHTERGROND
+//roze achtergrond plaatje onderin
+.background-diap{
+    --background: #F2E2EE url("./assets/images/imageBack_diap.png") 0 100%/100% no-repeat;
+}
+.background-diap-dark {
+    --background: #482d7a url("./assets/images/imageBack_diap.png") 0 100%/100% no-repeat;
+}
+
+.background-diap-alt {
+    --background: #FFF url("./assets/images/backImage1.png") 0 100%/100% no-repeat;
+}
+
+
+.ion-ios-circle-outline {
+    width: 7vw;
+    height: 7vw;
+    border-radius: 100%;
+    border: 1px solid;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+// Menu bar Cirkel
+svg.round-progress {
+    position:absolute;
+    right:7px;
+    margin-top: -7px;
+}
+//processbar
+.progressbarBaseFront {
+    width:0vw;
+    height : 100%;
+    border-radius: 3vw 0vw 0vw 3vw;
+    background-color: orange;
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+}
+.progressbarBaseBack {
+    width  : 20vw;
+    height : 5vw;
+    border-radius: 3vw;
+    border: 0.3vw solid #c8c6c6;
+    background: -webkit-linear-gradient(#666666, #ABABAB); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#666666, #ABABAB); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#666666, #ABABAB); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#666666, #ABABAB); /* Standard syntax */
+}
+
+.leveltest .progressbarBaseBack {
+    width: 20vw;
+    height: 3vw !important;
+    border-radius: 3vw;
+    border: 0.3vw solid #c8c6c6;
+    background-color: #E8e6e6 !important;
+    position: absolute !important;
+    margin-left: 5vw !important;
+    margin-top: 4vw !important;
+}
+
+.overlay-Inactive {
+  -webkit-transition: top 0.6s ease-out;
+  -moz-transition: top 0.6s ease-out;
+  -o-transition: top 0.6s ease-out;
+  transition: top 0.6s ease-out;
+  width: 100vw;
+  height: 100vh;
+  top: -100vh;
+  background-color:#FFF;
+  background-image: url("./assets/images/geest_transp.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position:absolute;
+  z-index:8;
+
+
+    .alert-text{
+        font-family: "Podkova";
+        font-size: 4.5vw;
+        text-align: center;
+        line-height: 5.5vw;
+    }
+
+}
+
+
+/*  dit moet in een css file komen voor progressBar.html ### begint hier */
+/*  VOORBEELD  DIT IS de bar met het ingevulde getal in de directive ( html element ) er achter, om per bar specifiek de doen kan je er een #id voor zetten.*/
+
+.frontBar {
+    height : 14px;
+    border-radius: 10px;
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+}
+
+
+.frontBar100 {
+    background-color: #66cc00;
+    border-radius: 3vw 3vw 3vw 3vw;
+}
+.frontBar75 {
+    background-color: #CEE470;
+}
+.frontBar50 {
+    background-color: #CEE470;
+}
+.frontBar40 {
+    background-color: #CEE470;
+}
+.frontBar25 {
+    background-color: #E1BDD6;
+}
+.frontBar0 {
+    background-color: #E1BDD6;
+}
+.backBar {
+
+}
+
+.notClickable {
+    opacity:0.3;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+    //  background-color: rgb(218, 218, 218);
+    pointer-events: none;
+}
+.available {
+    opacity:1;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+}
+.item-toggle {
+    padding-left:8px;
+}
+.infoIcon {
+    left: 10px;
+}
+
+.col-10 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 10%;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 10%;
+    -ms-flex: 0 0 10%;
+    flex: 0 0 10%;
+    max-width: 10%;
+}
+hr {
+    border-width: 1px;
+    height: 0px;
+}
+.center {
+    text-align: center;
+}
+
+.loader {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+}
+.scroll {
+    padding-bottom:12vw;
+}
+.fixheaderheight {
+    margin-top:12vw;
+}
+.modal{
+    top: 0 ;
+    bottom: 0 ;
+    left: 0 ;
+    right: 0 ;
+    width: 100% ;
+}
+.platform-ipad .ipadscaled {
+    -webkit-transform: scale(0.7, 0.7);
+    -webkit-transform-origin: 50% 0;
+}
+  

@@ -1,0 +1,22 @@
+{
+    "introtexts": [
+        "This app is based on the method of the book 'Master Arabic Reading and Writing for Beginners' developed by the 'Master Arabic' language institute in Amsterdam, The Netherlands. This unique method was developed after 10 years of experience teaching the Arabic script to students from all over Europe.",
+        "The goal of this app is to teach the beginner student reading and writing the Arabic script, while building a solid vocabulary base. After completing all levels of the app, the student will be able to easily read Arabic text and will be able to write words in Arabic, in addition to having a vocabulary of at least 480 words.",
+        "The method is based on the gradual building of the student's knowledge of the Arabic letters in 13 steps, starting with the easiest letters and building gradually to the more complicated letters. The method does not follow the alphabetical order of the Arabic letters. It is therefore very important to complete every level before proceeding to the next one. In every level, 2 or 3 letters are introduced and have to be learned and practiced. At the end, upon completion of the 13 levels, the genie will come out of the lantern and congratulate the user for being able to read Arabic!",
+        "Good luck, enjoy! :-)"
+    ],
+    "orderimage": "assets/images/orderBook.png",
+    "orderlead": "Master Arabic, Reading and Writing Modern Standard Arabic for Beginners.",
+    "orderbutton":"assets/images/imageOrder.png",
+    "ordertext": "order",
+    "colofonimage": "assets/images/colofonImage.jpg",
+    "colofonlead": "Nayla Chebli",
+    "learnklank": "raa",
+    "learnletter": "raa",
+    "learnklinkerslang": "De 'raa' met de lange klinkers",
+    "learnklinkerskort": "De 'raa' met de lange klinkers",
+    "orderbookurl": "https://www.leerarabisch.nl/english/boeken-bestellen",
+    "websiteurl": "http://www.imasterarabic.com",
+    "longlearnvowels": "/sound/longvowels.m4a",
+    "shortlearnvowels": "/sound/shortvowels.m4a"
+}

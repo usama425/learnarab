@@ -1,0 +1,81 @@
+.translatesentence {
+
+    .default-text.sentence {
+        &.ar {
+            font-size: 11vw;
+            line-height: 17vw;
+            direction: rtl;
+        }
+        &.en {
+            font-size: 9vw;
+            line-height: 9vw;
+        }
+        padding-top: 4vw;
+        text-align: center;
+        font-weight: 600;
+        padding-bottom: 6vw;
+        transition: opacity 1s linear;
+        -moz-transition: opacity 1s linear;
+        -webkit-transition: opacity 1s linear;
+        opacity: 0;
+        &.appear {
+            opacity: 1;
+        }
+    }
+    .arabic-text.ar{
+        font-size: 5vw;
+        line-height: 7vw;
+        text-align: left;
+        padding-left: 3vw;
+    }
+    .arabic-text.en{
+        font-size: 8vw;
+        text-align: right;
+        direction: rtl;
+        padding-right: 3vw;
+        width: 100%;
+    }
+    .box{
+        margin-left: -100vw;
+        transition: margin-left 1s ;
+        -moz-transition: margin-left 1s;
+        -webkit-transition: margin-left 1s;
+        width:80vw;
+        &.box-0 {
+            transition-delay: 0s;
+        }
+        &.box-1 {
+            transition-delay: 0.2s;
+        }
+        &.box-2 {
+            transition-delay: 0.4s;
+        }
+        &.leftPos {
+            transition: none;
+            margin-left: -100vw;
+        }
+        &.moveIn {
+            transition-timing-function: ease-out;
+            margin-left: 10vw;
+        }
+        &.moveOut {
+            transition-timing-function: ease-in;
+            transition-delay: 0.4s;
+            margin-left: 100vw;
+        }
+        &.moveOutDelayed {
+            transition-timing-function: ease-in;
+            transition-delay: 2s;
+            margin-left: 100vw;
+        }
+    }
+
+    .button.item-icon-left {
+        height:16vw;
+        line-height: 12vw;
+        margin-top: 4vw;
+        display: flex;
+        align-items: center;
+    }
+}
+

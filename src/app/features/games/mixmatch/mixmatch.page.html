@@ -1,0 +1,21 @@
+<ion-content class="page background-diap-alt">
+  <div class="mixandmatch ipadscaled">
+      <ion-row *ngFor="let rows of gameWordArrayShuffled; let i = index" >
+          <ion-col size="4" *ngFor="let object of rows">
+                <div class="imagebutton" (click)="select(object,i)" [ngClass]="[object.active, object.available, object.status]" *ngIf="object.type=='image'">
+                    <img [src]="object.value">
+                </div>
+            
+                <div class="audiobuttonSquare" (click)="select(object,i)" [ngClass]="[object.active, object.available, object.status]" *ngIf="object.type=='sound'">
+                    <ion-icon name="volume-medium" class="newaudiobutton ion-android-volume-up" [attr.sound-path]="object.value" (click)="playAudio($event)">
+                        <!-- <audio [src]="object.value | safeUrl"></audio> -->
+                    </ion-icon>
+                </div>
+                
+                <div class="wordbutton" (click)="select(object,i)" [ngClass]="[object.active, object.available, object.status]" *ngIf="object.type=='word'">
+                    {{object.value}}
+                </div>
+          </ion-col>
+      </ion-row>
+  </div>
+</ion-content>

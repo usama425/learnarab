@@ -1,0 +1,38 @@
+<ion-content>
+  <div class="learnbylevels" *ngIf="processing == false">
+    <ion-row>
+      <ion-col>
+        <div class="default-text">Letters</div>
+      </ion-col>
+    </ion-row>
+    
+    <!-- <ion-item *ngIf="!debugMode && settings.appPurchased">
+      <ion-label class="default-text">Unlock all levels</ion-label>
+      <ion-toggle [(ngModel)]="settings.fullMode" [checked]="settings.fullMode" (ionChange)="switchFull()"></ion-toggle>
+    </ion-item> -->
+  
+    
+    <div *ngFor="let level of levelData; let i = index">
+      <div class="horizontal-line"></div>
+      <ion-row class="letter-row" [ngClass]="levelAvailable[i]" (click)="showLevel(i)">
+        <meta charset="utf-8">
+
+        <!-- Letter bvb ( a b c )-->
+        <div class="horizontal-line"></div>
+        <ion-col *ngFor="let letter of level.levelLink | keyvalue" [class.invisible]="letter.value == 'x'">
+          <div class="cirkel-letter">
+            <div class="letter scheherazade">{{letter.value}}</div>
+          </div>
+          <div class="letter-name" [class.klein]="level.levelText[letter.key].length > 5">{{level.levelText[letter.key]}}</div>
+        </ion-col>
+
+        <ion-col class="col-33">
+          <div class="levelboxContainer">
+            <img class="level-image" [src]="'assets/images/imageLevel' + levelProgress[i] + '.png'">
+            <div class="level-number">Level {{i + 1}}</div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,69 @@
+.leveltest {
+    ion-row {
+        padding: 5px;
+    }
+    
+    ion-col {
+        display: flex;
+        align-items: center;
+    }
+
+    .info-image{
+        float: right;
+        margin-right: 7vw;
+        width:5vw;
+        height:6vw;
+    }
+    //naam van de letter
+    .name{
+        font-family: "Podkova";
+        font-size: 7vw;
+    }
+
+    //plaatjes van de spellen
+    .test-image{
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+    }
+
+    //progressiebar
+    .progression{
+        position: relative;
+        margin-top: -28vw;
+        margin-left: 4vw;
+        border-radius: 4vw;
+        box-shadow: 0 0 1vw #777 inset;
+        background: #E8e6e6;
+        width: 70%;
+        height: 3vw;
+        z-index: 1;
+    }
+
+    .inner-progression{
+        border-radius: 4vw;
+        box-shadow: 0 -1vw 2vw #7B8757 inset;
+        background: #8AC007;
+        width: 60%;
+        height: 3vw;
+    }
+
+    .row.tweede{
+        height: 35vw;
+    }
+
+    .row.derde{
+        height: 35vw;
+    }
+
+    // .progressbarBaseBack {
+    //     width  : 20vw;
+    //     height : 3vw;
+    //     border-radius: 3vw;
+    //     border: 0.3vw solid #c8c6c6;
+    //     background-color: #E8e6e6;
+    //     position:absolute;
+    //     margin-left:5vw;
+    //     margin-top:4vw;
+    // }
+}

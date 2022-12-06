@@ -1,0 +1,22 @@
+Steps to Build App:
+=================================
+1. Build App
+    npm run ionic-build
+
+2. Add Platform:
+    npm run ios-add
+
+3. Generate Resouces (Splash & App Icons):
+    npm run resources-ios
+
+4. Build Sync: 
+    npm run sync
+
+Issues:
+===================================
+
+1. Admob-free plugin crash issue: 
+
+Rerference Links:
+https://developers.google.com/admob/ios/quick-start#update_your_infoplist
+https://stackoverflow.com/questions/55577811/xcode-error-when-added-admob-plugin-to-ionic-project

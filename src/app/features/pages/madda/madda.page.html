@@ -1,0 +1,30 @@
+
+<ion-content class="page background-diap-alt">
+<!-- [start-y="-40"]> -->
+<br />
+<div class="learnvowels">
+<!--    eerste box-->
+<ion-row class="row-center">
+<ion-col class="center">
+   <div class="name klank">madda : </div>
+
+   <div class="arabic-text scheherazade sign">
+       آ
+   </div>
+</ion-col>
+</ion-row>
+
+<div class="default-text extra" style="margin-top:4vw;">The 'madda' is a combination of 2 letters: the 'hamza' followed by an 'alif' </div>
+<div class="arabic-text scheherazade large">ا + أ = آ</div>
+<div class="default-text extra">It therefore has a glottal stop sound followed by 'aa'.</div>
+<div class="default-text extra" style="margin-top:4vw;">Listen carefully to the audio.</div>
+<ion-row>
+<ion-col class="text-center">
+   <ion-icon name="volume-medium" class="newaudiobutton text-center" [attr.sound-path]="audioMadda" (click)="playAudio($event)">
+   <!-- <audio [src]="audioMadda | safeUrl"></audio> -->
+</ion-icon>
+  </ion-col>
+</ion-row>
+</div>
+</ion-content>
+

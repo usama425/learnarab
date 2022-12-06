@@ -1,0 +1,22 @@
+.progressbarBaseBack {
+    width: 20vw;
+    height: 5vw;
+    border-radius: 3vw;
+    border: 0.3vw solid #c8c6c6;
+    background: linear-gradient(#666666, #ABABAB);
+    .progressbarBaseFront {
+        width: 0vw;
+        height: 100%;
+        border-radius: 3vw 0vw 0vw 3vw;
+        // background-color: orange;
+        transition: 0.5s ease-in;
+
+        &.full {
+            border-radius: 3vw;
+        }
+    }
+}
+
+.scoreScreenProgress {
+    width: 100%;
+  }

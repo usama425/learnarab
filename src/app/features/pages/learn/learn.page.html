@@ -1,0 +1,111 @@
+<ion-content class="page background-diap-alt">
+  <div class="learn" [ngClass]="arabCssLetter" *ngIf="loading == false">
+    <ion-row class="row-center">
+      <ion-col>
+        <div class="name klank"> {{letterInfo.phonetic}} : </div>
+      </ion-col>
+      <ion-col>
+        <div class="arabic-text sign scheherazade"><span class="arabic-letter">{{letterInfo.arabic_letter}}</span>
+          <ion-icon name="volume-medium" class="newaudiobutton ion-android-volume-up" [attr.sound-path]="soundUrl"
+            (click)="playAudio($event)">
+            <!-- <audio [src]="soundUrl | safeUrl"></audio> -->
+          </ion-icon>
+        </div>
+      </ion-col>
+    </ion-row>
+    <p></p>
+    <!--    eerste box-->
+    <div class="default-text subheader">The <span class="highlight scheherazade"
+        style="font-size:12vw">{{letterInfo.arabic_letter}}</span> with Long Vowels</div>
+    <ion-row class="">
+      <ion-col class="col-10">
+      </ion-col>
+      <ion-col *ngFor="let info of letterInfo.long_vowel; let i=index;">
+        <div class="box">
+          <div class="arabic-text scheherazade" [innerHtml]="info.arab_sign"></div>
+          <div class="default-text naam"><span
+              class="highlight">{{info.phonetic.slice(0,-2)}}</span>{{info.phonetic.substr(-2)}}
+          </div>
+        </div>
+      </ion-col>
+      <ion-col class="col-10">
+      </ion-col>
+    </ion-row>
+
+    <!--    tweede box-->
+    <p></p>
+    <div class="default-text subheader">The <span class="highlight scheherazade"
+        style="font-size:12vw">{{letterInfo.arabic_letter}}</span> with Short Vowels</div>
+    <ion-row class="shortvowels">
+      <ion-col *ngFor="let info of letterInfo.short_vowels; let i = index">
+        <div class="box second" [class.lowaccent]="i == 1">
+          <div class="arabic-text scheherazade" [ngClass]="myfontsize" [innerHtml]="info.arab_sign"></div>
+          <div class="default-text naam" *ngIf="i == 0"><span class="highlight">{{info.phonetic}}</span></div>
+          <div class="default-text naam" *ngIf="i != 0"><span
+              class="highlight">{{info.phonetic.slice(0,-1)}}</span>{{info.phonetic.substr(-1)}}</div>
+
+        </div>
+      </ion-col>
+    </ion-row>
+    <!--    derde box: writing position-->
+    <p></p>
+    <div class="default-text">Writing vs Position</div>
+    <ion-row class="">
+      <ion-col>
+        <div class="cirkel-letter">
+          <!--                   Slugs are awkward due to other input order in Wp take care-->
+          <div class="letter scheherazade">{{letterInfo.writing_end}}</div>
+        </div>
+        <div class="blocks">
+          <div class="colorBlock"></div>
+          <div class="spaceBlock"></div>
+          <div class="blackBlock wide"></div>
+          <div class="blackBlock wide"></div>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="cirkel-letter">
+          <div class="letter scheherazade">{{letterInfo.writing_inbetween}}</div>
+        </div>
+        <div class="blocks">
+          <div class="spaceBlock"></div>
+          <div class="colorBlock"></div>
+          <div class="blackBlock wide"></div>
+          <div class="blackBlock wide"></div>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="cirkel-letter">
+          <div class="letter scheherazade">{{letterInfo.writing_beginning}}</div>
+        </div>
+        <div class="blocks">
+          <div class="spaceBlock"></div>
+          <div class="blackBlock wide"></div>
+          <div class="colorBlock"></div>
+          <div class="blackBlock wide"></div>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="cirkel-letter">
+          <div class="letter scheherazade">{{letterInfo.writing_reperate}}</div>
+        </div>
+        <div class="blocks">
+          <div class="blackBlock wide"></div>
+          <div class="blackBlock wide"></div>
+          <div class="colorBlock"></div>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <br />
+        <ion-button expand="full" color="light" class="writingbutton" (click)="openModal()"> <b>Watch the Writing
+            Instructions</b></ion-button>
+        <!-- <div class="item item-icon-left" (click)="openModal()">
+          <b>Watch the Writing Instructions</b>
+        </div> -->
+      </ion-col>
+    </ion-row>
+  </div>
+</ion-content>

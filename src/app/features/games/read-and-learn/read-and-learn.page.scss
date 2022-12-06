@@ -1,0 +1,60 @@
+.readandlearn {
+    padding-bottom: 14vw;
+    
+    .bar-royal{
+        position: relative;
+    }
+    .card{
+        border-color: #ddd;
+        background-color: rgba(242, 242, 242, 0.5);
+        color: #444;
+        position: relative;
+        z-index: 2;
+        margin: -1px;
+        border-width: 1px;
+        border-style: solid;
+        width: 100%;
+        height: 50vw;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+        margin: 5px;
+    }
+    .default-text{
+        text-align: center;
+        line-height: 50vw;
+        font-size:7vw;
+        &.arabic {
+            font-size:15vw;
+        }
+    }
+
+    .hidden {
+        display: none;
+    }
+    .favorite {
+        position: absolute;
+        right: 0;
+        color: lightgrey;
+        transition: opacity 0.1s;
+        padding: 6px 6px 0px;
+        min-width: initial;
+        font-size: 32px;
+    }
+    .favorite.isFavorite {
+        color:#009900;
+    }
+    .audioButtonDiv {
+        position:absolute;
+        left:2vw;
+        top:2vw;
+    }
+    .audiobutton.ion-android-volume-up {
+        height:12vw;
+        width:12vw;
+        font-size: 7vw;
+    }
+    .icon-help {
+        position:absolute;
+        margin-top:9vw;
+        font-size: 32px;
+    }
+}

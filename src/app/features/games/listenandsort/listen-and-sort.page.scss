@@ -1,0 +1,48 @@
+.listenandsort {
+
+    .arabic-text{
+        text-align: right;
+        line-height: 12vw;
+        margin-right: 2vw;
+        font-size:9vw;
+    }
+    //toren element
+    .level-image{
+        background-image: url("../../../../assets/images/arabictoren.png");
+        width: 96%;
+        height: 60%;
+        position: absolute;
+        bottom: 38%;
+        right: 36%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+    }
+    .col-40.geluid{
+        padding-top: 8vw;
+    }
+    .row-center.keuze{
+        padding-top:10%;
+    }
+
+    .correct {background:#8dc63f !important;}
+    .wrong {background:#ef4136 !important;}
+    .newaudiobutton {
+        // @include sizedbutton(35vw);
+        width:35vw;
+        height:35vw;
+        font-size:35vw*0.7;
+        line-height:37vw;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .button.item-icon-left {
+        height: 16vw;
+        line-height: 12vw;
+        margin-top: 4vw;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
