@@ -1,13 +1,22 @@
 <ion-content class="background-diap-alt">
   <ion-row>
     <ion-col *ngIf="productPrice">
-      <div class="lead">Upgrade to remove all ads!</div>
+      <!-- <div class="lead">Unlock All Levels</div> -->
       <div class="default-text">
-        <p>Practice and play without interruption.</p>
-        <button class="main-btn font-sm" (click)="purchase()" >
-          REMOVE ADS {{productPrice}}
+        <p>
+          Upgrade to the full version in order to unlock a complete course where
+          you will master your Arabic reading and vocabulary through Flashcards
+          and fun games!
+        </p>
+        <button class="main-btn font-sm" (click)="purchase()">
+          Unlock All Levels {{productPrice}}
         </button>
-        <p><br />If you have already bought the upgrade on another device...</p>
+        <p>
+          <br />If you have previously purchased the app, select first ‘Unlock
+          all levels’, approve the purchase, then you will receive a message
+          that you have previously purchased the app, after which you select:
+          ‘Restore Previous Purchase’. You will NOT be charged another time!
+        </p>
         <button class="main-btn font-sm" (click)="restore()">
           Restore previous purchase
         </button>

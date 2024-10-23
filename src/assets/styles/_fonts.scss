@@ -61,7 +61,9 @@
     font-family: "Noto";
     font-style: normal;
     font-weight: 400;
-    src: local("NotoNaskhArabic Regular"), local("NotoNaskhArabic-Regular"), url("./assets/fonts/NotoNaskhArabic-regular.ttf") format('truetype');
+src: local("NotoNaskhArabic Regular"), local("NotoNaskhArabic-Regular"), url("/assets/fonts/NotoNaskhArabic-Regular.ttf") format('truetype');
+
+
 }
 
 .scheherazade {

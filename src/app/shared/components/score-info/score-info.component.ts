@@ -36,7 +36,6 @@ export class ScoreInfoComponent implements OnInit {
 
   replayGame() {
     this.closeModal();
-    alert('replay');
     this.eventService.triggerReplay();
   };
 

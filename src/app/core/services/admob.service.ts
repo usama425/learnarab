@@ -58,13 +58,13 @@ export class AdmobService {
       // 1. Coniguration (Only first time)
       this.admobFree.interstitial.config(this.interstitialConfig);
       // 2. Prepare (Everytime after close)
-      this.preapreInterstitial();
+      // this.preapreInterstitial();
 
       //REWARD VIDEO
       // 1. Coniguration (Only first time)
       this.admobFree.rewardVideo.config(this.rewardVideoConfig);
       // 2. Prepare (Everytime after close)
-      this.preapreRewardVideo();
+      // this.preapreRewardVideo();
     });
 
     //Handle interstitial's close event to Prepare Ad again
@@ -85,72 +85,72 @@ export class AdmobService {
   }
 
   private preapreInterstitial() {
-    this.admobFree.interstitial
-      .prepare()
-      .then(() => {
-        console.log("INTERSTIAL LOADED");
-      })
-      .catch((e) => console.log("PROBLEM LOADING INTERSTITIAL: ", e));
+    // this.admobFree.interstitial
+    //   .prepare()
+    //   .then(() => {
+    //     console.log("INTERSTIAL LOADED");
+    //   })
+    //   .catch((e) => console.log("PROBLEM LOADING INTERSTITIAL: ", e));
   }
 
   private preapreRewardVideo() {
-    this.admobFree.rewardVideo
-      .prepare()
-      .then(() => {
-        console.log("REWARD VIDEO Prepared");
-      })
-      .catch((e) => console.log("PROBLEM LOADING REWARDVIDEO: ", e));
+    // this.admobFree.rewardVideo
+    //   .prepare()
+    //   .then(() => {
+    //     console.log("REWARD VIDEO Prepared");
+    //   })
+    //   .catch((e) => console.log("PROBLEM LOADING REWARDVIDEO: ", e));
   }
 
   showBanner() {
     //CHECK AND SHOW BANNER
-    this.admobFree.banner
-      .prepare()
-      .then(() => {
-        console.log("BANNER LOADED 1");
-      })
-      .catch((e) => console.log("PROBLEM LOADING BANNER: ", e));
+    // this.admobFree.banner
+    //   .prepare()
+    //   .then(() => {
+    //     console.log("BANNER LOADED 1");
+    //   })
+    //   .catch((e) => console.log("PROBLEM LOADING BANNER: ", e));
   }
 
   showInterstitial() {
     //CHECK AND SHOW INTERSTITIAL
-    this.admobFree.interstitial
-      .isReady()
-      .then(() => {
-        //AT .ISREADY SHOW
-        this.admobFree.interstitial
-          .show()
-          .then(() => {
-            console.log("INTERSTITIAL LOADED");
-          })
-          .catch((e) =>
-            console.log("PROBLEM LOADING REWARD VIDEO (SHOW): ", e)
-          );
-      })
-      .catch((e) => console.log("PROBLEM LOADING REWARD VIDEO (ISREADY): ", e));
+    // this.admobFree.interstitial
+    //   .isReady()
+    //   .then(() => {
+    //     //AT .ISREADY SHOW
+    //     this.admobFree.interstitial
+    //       .show()
+    //       .then(() => {
+    //         console.log("INTERSTITIAL LOADED");
+    //       })
+    //       .catch((e) =>
+    //         console.log("PROBLEM LOADING REWARD VIDEO (SHOW): ", e)
+    //       );
+    //   })
+    //   .catch((e) => console.log("PROBLEM LOADING REWARD VIDEO (ISREADY): ", e));
   }
 
   showRewardVideo() {
     //CHECK AND SHOW REWARDVIDEO
-    this.admobFree.rewardVideo
-      .isReady()
-      .then(() => {
-        //AT .ISREADY SHOW
-        console.log("Reward Video initiate");
-        this.admobFree.rewardVideo
-          .show()
-          .then(() => {
-            console.log("Reward Video LOADED");
-            this.preapreRewardVideo();
-          })
-          .catch((e) => {
-            console.log("PROBLEM LOADING REWARD VIDEO (SHOW): ", e);
-            this.preapreRewardVideo();
-          });
-      })
-      .catch((e) => {
-        console.log("PROBLEM LOADING REWARD VIDEO (ISREADY): ", e);
-        this.preapreRewardVideo();
-      });
+    // this.admobFree.rewardVideo
+    //   .isReady()
+    //   .then(() => {
+    //     //AT .ISREADY SHOW
+    //     console.log("Reward Video initiate");
+    //     this.admobFree.rewardVideo
+    //       .show()
+    //       .then(() => {
+    //         console.log("Reward Video LOADED");
+    //         this.preapreRewardVideo();
+    //       })
+    //       .catch((e) => {
+    //         console.log("PROBLEM LOADING REWARD VIDEO (SHOW): ", e);
+    //         this.preapreRewardVideo();
+    //       });
+    //   })
+    //   .catch((e) => {
+    //     console.log("PROBLEM LOADING REWARD VIDEO (ISREADY): ", e);
+    //     this.preapreRewardVideo();
+    //   });
   }
 }

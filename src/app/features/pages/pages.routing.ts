@@ -18,7 +18,7 @@ const routes: Routes = [
     path: 'buy',
     loadChildren: () => import('./buy/buy.module').then(m => m.BuyModule),
     data: {
-      title: 'REMOVE ADS',
+      title: 'Unlock All Levels',
       directPage: true
     }
   },

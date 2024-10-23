@@ -52,7 +52,6 @@ export class LearnPage implements OnInit {
   }
 
   ngOnInit() {
-    alert('Hello');
     this.routeParamSub$ = this.route.params.subscribe(params => {
       const { letter } = params;
       this.letter = decodeURIComponent(letter);
